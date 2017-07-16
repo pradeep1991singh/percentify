@@ -1,5 +1,5 @@
 {
-  "name": "percentify",
+  "name": "percentify-circle",
   "version": "1.0.0",
   "description": "Pure CSS3 Percentage Circle with icons and custom content support",
   "scripts": {
@@ -9,7 +9,10 @@
     "webpack": "webpack"
   },
   "main": "percentify.css",
-  "repository": "https://github.com/pradeep1991singh/percentify.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pradeep1991singh/percentify.git"
+  },
   "keywords": [
     "percentage circle",
     "pure css3",
@@ -33,5 +36,13 @@
     "gulp-webserver": "^0.9.1",
     "run-sequence": "^2.0.0",
     "webpack": "^3.2.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/pradeep1991singh/percentify/issues"
+  },
+  "homepage": "https://github.com/pradeep1991singh/percentify#readme",
+  "directories": {
+    "example": "example"
+  },
+  "devDependencies": {}
 }
