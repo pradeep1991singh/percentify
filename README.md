@@ -46,12 +46,13 @@ $ npm run start
 </div>
 
 <!-- 	Template details 
-	----------------------------------------------
+
 	percentify: will define percentage main element
 	p33: percentage of circle need to fill i.e. 33%
 	cfs100: circle size i.e. 100px, range 12px-500px
 	orange: orange theme
-	active: make circle inner content active i.e. as theme is orange it will make inner content color orange
+	active: make circle inner content active 
+					i.e. as theme is orange it will make inner content color orange
 	android-icon: android icon class name
 	ifs25: icon size i.e. 25px, range 12px-500px
 	text: custom text class name
@@ -83,4 +84,4 @@ $ npm run start
 
 ## Demo
 
-[Demo Examples](https://htmlpreview.github.io/?https://raw.githubusercontent.com/pradeep1991singh/percentify/master/example/index.html)
+[Demo Examples](https://percentify.firebaseapp.com)
