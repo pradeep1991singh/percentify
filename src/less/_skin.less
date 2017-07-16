@@ -1,0 +1,134 @@
+.percentify {
+  // override colors for the dark skin
+  &.dark {
+    background-color: @secondary-color-dark;
+
+    .bar,
+    .fill {
+      border-color: @primary-color-dark !important;
+    }
+
+    > span {
+      color: @secondary-color-dark;
+    }
+
+    &:after {
+      background-color: @bg-color-dark;
+    }
+
+    &:hover {
+      > span {
+        color: @primary-color-dark;
+        &:before {
+          color: @primary-color-dark;
+        }
+      }
+    }
+    &.active {
+      > span {
+        color: @primary-color-dark;
+        &:before {
+          color: @primary-color-dark;
+        }
+      }
+    }
+  }
+
+  // green skin
+  &.green {
+    .bar,
+    .fill {
+      border-color: @primary-color-green !important;
+    }
+
+    &:hover {
+      > span {
+        color: @primary-color-green;
+        &:before {
+          color: @primary-color-green;
+        }
+      }
+    }
+    &.active {
+      > span {
+        color: @primary-color-green;
+        &:before {
+          color: @primary-color-green;
+        }
+      }
+    }
+  }
+
+  &.green.dark {
+    .bar,
+    .fill {
+      border-color: @primary-color-green-dark !important;
+    }
+
+    &:hover {
+      > span {
+        color: @primary-color-green-dark;
+        &:before {
+          color: @primary-color-green-dark;
+        }
+      }
+    }
+    &.active {
+      > span {
+        color: @primary-color-green-dark;
+        &:before {
+          color: @primary-color-green-dark;
+        }
+      }
+    }
+  }
+
+  // orange skin
+  &.orange {
+    .bar,
+    .fill {
+      border-color: @primary-color-orange !important;
+    }
+
+    &:hover {
+      > span {
+        color: @primary-color-orange;
+        &:before {
+          color: @primary-color-orange;
+        }
+      }
+    }
+    &.active {
+      > span {
+        color: @primary-color-orange;
+        &:before {
+          color: @primary-color-orange;
+        }
+      }
+    }
+  }
+
+  &.orange.dark {
+    .bar,
+    .fill {
+      border-color: @primary-color-orange-dark !important;
+    }
+
+    &:hover {
+      > span {
+        color: @primary-color-orange-dark;
+        &:before {
+          color: @primary-color-orange-dark;
+        }
+      }
+    }
+    &.active {
+      > span {
+        color: @primary-color-orange-dark;
+        &:before {
+          color: @primary-color-orange-dark;
+        }
+      }
+    }
+  }
+}
