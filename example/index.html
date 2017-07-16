@@ -43,6 +43,7 @@
     footer a:active,
     footer a:-webkit-any-link {
       color: #f9f9f9;
+      margin-left: 10px;
     }
 
     main {
@@ -52,6 +53,10 @@
     .page-title,
     h1 {
       letter-spacing: 10px;
+    }
+
+    .description {
+      letter-spacing: 3px;
     }
 
     .flex-container {
@@ -80,6 +85,14 @@
 
     .flex-wrap {
       flex-wrap: wrap;
+    }
+
+    .flex-float-left {
+      margin-right: auto;
+    }
+
+    .flex-float-right {
+      margin-left: auto;
     }
 
     .examples {
@@ -111,9 +124,22 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-  <header>
-    <h1 class="page-title">Pecentify</h1>
-    <p class="description">Pure CSS3 Percentage Circle with icons and custom content support</p>
+  <header class="flex-container flex-center">
+    <div class="site">
+      <h1 class="page-title">Pecentify</h1>
+      <p class="description">Pure CSS3 Percentage Circle with icons and custom content support</p>
+    </div>
+    <div class="menu flex-float-right">
+      <a href="https://github.com/pradeep1991singh/percentify">
+        <div class="percentify p100 cfs55 active dark">
+          <span class="github-icon ifs35"></span>
+          <div class="slice">
+            <div class="bar"></div>
+            <div class="fill"></div>
+          </div>
+        </div>
+      </a>
+    </div>
   </header>
 
   <main class="inner-content">
@@ -128,7 +154,7 @@
           </div>
         </div>
         <label for="example-android-icon" class="label label-example">
-          <code>&lt;span class="android-icon bfs40"&gt;&lt;/span&gt;</code>
+          <code>&lt;div class="percentify p33 cfs100 orange active"&gt; ...</code>
         </label>
       </div>
 
@@ -141,7 +167,7 @@
           </div>
         </div>
         <label for="example-text" class="label label-example">
-          <code>&lt;span class="js-icon bfs80"&gt;&lt;/span&gt;</code>
+          <code>&lt;div class="percentify p88 cfs200 active"&gt; ...</code>
         </label>
       </div>
 
@@ -205,8 +231,17 @@
     </div>
 
   </main>
-  <footer>Created with <code>&hearts;</code> at
-    <a href="https://github.com/pradeep1991singh/percentify" alt="https://github.com/pradeep1991singh/percentify">github:percentify</a>
+  <footer class="flex-container flex-center">
+    <code>Created with &hearts; at</code>
+    <a href="https://github.com/pradeep1991singh/percentify" alt="https://github.com/pradeep1991singh/percentify">
+      <div class="percentify p100 cfs25 active dark">
+        <span class="github-icon ifs15"></span>
+        <div class="slice">
+          <div class="bar"></div>
+          <div class="fill"></div>
+        </div>
+      </div>
+    </a>
   </footer>
 </body>
 
