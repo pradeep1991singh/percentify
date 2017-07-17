@@ -1,3 +1,5 @@
+@import "_effects";
+
 .percentify {
   // override colors for the dark skin
   &.dark {
@@ -16,21 +18,11 @@
       background-color: @bg-color-dark;
     }
 
-    &:hover {
-      > span {
-        color: @primary-color-dark;
-        &:before {
-          color: @primary-color-dark;
-        }
-      }
+    &.hover:hover {
+      .effects2(@primary-color-dark);
     }
     &.active {
-      > span {
-        color: @primary-color-dark;
-        &:before {
-          color: @primary-color-dark;
-        }
-      }
+      .effects2(@primary-color-dark);
     }
   }
 
@@ -41,21 +33,11 @@
       border-color: @primary-color-green !important;
     }
 
-    &:hover {
-      > span {
-        color: @primary-color-green;
-        &:before {
-          color: @primary-color-green;
-        }
-      }
+    &.hover:hover {
+      .effects2(@primary-color-green);
     }
     &.active {
-      > span {
-        color: @primary-color-green;
-        &:before {
-          color: @primary-color-green;
-        }
-      }
+      .effects2(@primary-color-green);
     }
   }
 
@@ -65,21 +47,11 @@
       border-color: @primary-color-green-dark !important;
     }
 
-    &:hover {
-      > span {
-        color: @primary-color-green-dark;
-        &:before {
-          color: @primary-color-green-dark;
-        }
-      }
+    &.hover:hover {
+      .effects2(@primary-color-green-dark);
     }
     &.active {
-      > span {
-        color: @primary-color-green-dark;
-        &:before {
-          color: @primary-color-green-dark;
-        }
-      }
+      .effects2(@primary-color-green-dark);
     }
   }
 
@@ -90,21 +62,11 @@
       border-color: @primary-color-orange !important;
     }
 
-    &:hover {
-      > span {
-        color: @primary-color-orange;
-        &:before {
-          color: @primary-color-orange;
-        }
-      }
+    &.hover:hover {
+      .effects2(@primary-color-orange);
     }
     &.active {
-      > span {
-        color: @primary-color-orange;
-        &:before {
-          color: @primary-color-orange;
-        }
-      }
+      .effects2(@primary-color-orange);
     }
   }
 
@@ -114,20 +76,32 @@
       border-color: @primary-color-orange-dark !important;
     }
 
-    &:hover {
-      > span {
-        color: @primary-color-orange-dark;
-        &:before {
-          color: @primary-color-orange-dark;
-        }
-      }
+    &.hover:hover {
+      .effects2(@primary-color-orange-dark);
     }
     &.active {
-      > span {
-        color: @primary-color-orange-dark;
-        &:before {
-          color: @primary-color-orange-dark;
-        }
+      .effects2(@primary-color-orange-dark);
+    }
+  }
+
+  &.thinner {
+    &:after {
+      .effects3(@thinner-circle-width);
+    }
+    &.hover:hover {
+      &:after {
+        .effects3(@thinner-circle-hover-width);
+      }
+    }
+  }
+
+  &.thin {
+    &:after {
+      .effects3(@thin-circle-width);
+    }
+    &.hover:hover {
+      &:after {
+        .effects3(@thin-circle-hover-width);
       }
     }
   }

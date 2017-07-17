@@ -91555,20 +91555,20 @@
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
 }
-.percentify:hover {
+.percentify.hover:hover {
   cursor: pointer;
 }
-.percentify:hover > span {
+.percentify.hover:hover > span {
   width: 3.33em;
   line-height: 3.33em;
   font-size: 0.3em;
-  color: #307bbb;
+  color: 0.04em;
 }
-.percentify:hover:after {
-  top: 0.04em;
-  left: 0.04em;
-  width: 0.92em;
-  height: 0.92em;
+.percentify.hover:hover:after {
+  top: #307bbb;
+  left: #307bbb;
+  width: #000000;
+  height: #000000;
 }
 .percentify.active > span {
   color: #307bbb;
@@ -91581,7 +91581,7 @@
 .percentify > .ifs12:before {
   font-size: 12px;
 }
-.percentify:hover > .ifs12:before {
+.percentify.hover:hover > .ifs12:before {
   font-size: 18px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -91595,7 +91595,7 @@
 .percentify > .ifs13:before {
   font-size: 13px;
 }
-.percentify:hover > .ifs13:before {
+.percentify.hover:hover > .ifs13:before {
   font-size: 20px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -91609,7 +91609,7 @@
 .percentify > .ifs14:before {
   font-size: 14px;
 }
-.percentify:hover > .ifs14:before {
+.percentify.hover:hover > .ifs14:before {
   font-size: 21px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -91623,7 +91623,7 @@
 .percentify > .ifs15:before {
   font-size: 15px;
 }
-.percentify:hover > .ifs15:before {
+.percentify.hover:hover > .ifs15:before {
   font-size: 23px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -91637,7 +91637,7 @@
 .percentify > .ifs16:before {
   font-size: 16px;
 }
-.percentify:hover > .ifs16:before {
+.percentify.hover:hover > .ifs16:before {
   font-size: 24px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -91651,7 +91651,7 @@
 .percentify > .ifs17:before {
   font-size: 17px;
 }
-.percentify:hover > .ifs17:before {
+.percentify.hover:hover > .ifs17:before {
   font-size: 26px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -91665,7 +91665,7 @@
 .percentify > .ifs18:before {
   font-size: 18px;
 }
-.percentify:hover > .ifs18:before {
+.percentify.hover:hover > .ifs18:before {
   font-size: 27px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -91679,7 +91679,7 @@
 .percentify > .ifs19:before {
   font-size: 19px;
 }
-.percentify:hover > .ifs19:before {
+.percentify.hover:hover > .ifs19:before {
   font-size: 29px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -91693,7 +91693,7 @@
 .percentify > .ifs20:before {
   font-size: 20px;
 }
-.percentify:hover > .ifs20:before {
+.percentify.hover:hover > .ifs20:before {
   font-size: 30px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -91707,7 +91707,7 @@
 .percentify > .ifs21:before {
   font-size: 21px;
 }
-.percentify:hover > .ifs21:before {
+.percentify.hover:hover > .ifs21:before {
   font-size: 32px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -91721,7 +91721,7 @@
 .percentify > .ifs22:before {
   font-size: 22px;
 }
-.percentify:hover > .ifs22:before {
+.percentify.hover:hover > .ifs22:before {
   font-size: 33px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -91735,7 +91735,7 @@
 .percentify > .ifs23:before {
   font-size: 23px;
 }
-.percentify:hover > .ifs23:before {
+.percentify.hover:hover > .ifs23:before {
   font-size: 35px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -91749,7 +91749,7 @@
 .percentify > .ifs24:before {
   font-size: 24px;
 }
-.percentify:hover > .ifs24:before {
+.percentify.hover:hover > .ifs24:before {
   font-size: 36px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -91763,7 +91763,7 @@
 .percentify > .ifs25:before {
   font-size: 25px;
 }
-.percentify:hover > .ifs25:before {
+.percentify.hover:hover > .ifs25:before {
   font-size: 38px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -91777,7 +91777,7 @@
 .percentify > .ifs26:before {
   font-size: 26px;
 }
-.percentify:hover > .ifs26:before {
+.percentify.hover:hover > .ifs26:before {
   font-size: 39px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -91791,7 +91791,7 @@
 .percentify > .ifs27:before {
   font-size: 27px;
 }
-.percentify:hover > .ifs27:before {
+.percentify.hover:hover > .ifs27:before {
   font-size: 41px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -91805,7 +91805,7 @@
 .percentify > .ifs28:before {
   font-size: 28px;
 }
-.percentify:hover > .ifs28:before {
+.percentify.hover:hover > .ifs28:before {
   font-size: 42px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -91819,7 +91819,7 @@
 .percentify > .ifs29:before {
   font-size: 29px;
 }
-.percentify:hover > .ifs29:before {
+.percentify.hover:hover > .ifs29:before {
   font-size: 44px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -91833,7 +91833,7 @@
 .percentify > .ifs30:before {
   font-size: 30px;
 }
-.percentify:hover > .ifs30:before {
+.percentify.hover:hover > .ifs30:before {
   font-size: 45px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -91847,7 +91847,7 @@
 .percentify > .ifs31:before {
   font-size: 31px;
 }
-.percentify:hover > .ifs31:before {
+.percentify.hover:hover > .ifs31:before {
   font-size: 47px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -91861,7 +91861,7 @@
 .percentify > .ifs32:before {
   font-size: 32px;
 }
-.percentify:hover > .ifs32:before {
+.percentify.hover:hover > .ifs32:before {
   font-size: 48px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -91875,7 +91875,7 @@
 .percentify > .ifs33:before {
   font-size: 33px;
 }
-.percentify:hover > .ifs33:before {
+.percentify.hover:hover > .ifs33:before {
   font-size: 50px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -91889,7 +91889,7 @@
 .percentify > .ifs34:before {
   font-size: 34px;
 }
-.percentify:hover > .ifs34:before {
+.percentify.hover:hover > .ifs34:before {
   font-size: 51px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -91903,7 +91903,7 @@
 .percentify > .ifs35:before {
   font-size: 35px;
 }
-.percentify:hover > .ifs35:before {
+.percentify.hover:hover > .ifs35:before {
   font-size: 53px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -91917,7 +91917,7 @@
 .percentify > .ifs36:before {
   font-size: 36px;
 }
-.percentify:hover > .ifs36:before {
+.percentify.hover:hover > .ifs36:before {
   font-size: 54px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -91931,7 +91931,7 @@
 .percentify > .ifs37:before {
   font-size: 37px;
 }
-.percentify:hover > .ifs37:before {
+.percentify.hover:hover > .ifs37:before {
   font-size: 56px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -91945,7 +91945,7 @@
 .percentify > .ifs38:before {
   font-size: 38px;
 }
-.percentify:hover > .ifs38:before {
+.percentify.hover:hover > .ifs38:before {
   font-size: 57px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -91959,7 +91959,7 @@
 .percentify > .ifs39:before {
   font-size: 39px;
 }
-.percentify:hover > .ifs39:before {
+.percentify.hover:hover > .ifs39:before {
   font-size: 59px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -91973,7 +91973,7 @@
 .percentify > .ifs40:before {
   font-size: 40px;
 }
-.percentify:hover > .ifs40:before {
+.percentify.hover:hover > .ifs40:before {
   font-size: 60px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -91987,7 +91987,7 @@
 .percentify > .ifs41:before {
   font-size: 41px;
 }
-.percentify:hover > .ifs41:before {
+.percentify.hover:hover > .ifs41:before {
   font-size: 62px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92001,7 +92001,7 @@
 .percentify > .ifs42:before {
   font-size: 42px;
 }
-.percentify:hover > .ifs42:before {
+.percentify.hover:hover > .ifs42:before {
   font-size: 63px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92015,7 +92015,7 @@
 .percentify > .ifs43:before {
   font-size: 43px;
 }
-.percentify:hover > .ifs43:before {
+.percentify.hover:hover > .ifs43:before {
   font-size: 65px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92029,7 +92029,7 @@
 .percentify > .ifs44:before {
   font-size: 44px;
 }
-.percentify:hover > .ifs44:before {
+.percentify.hover:hover > .ifs44:before {
   font-size: 66px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92043,7 +92043,7 @@
 .percentify > .ifs45:before {
   font-size: 45px;
 }
-.percentify:hover > .ifs45:before {
+.percentify.hover:hover > .ifs45:before {
   font-size: 68px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92057,7 +92057,7 @@
 .percentify > .ifs46:before {
   font-size: 46px;
 }
-.percentify:hover > .ifs46:before {
+.percentify.hover:hover > .ifs46:before {
   font-size: 69px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92071,7 +92071,7 @@
 .percentify > .ifs47:before {
   font-size: 47px;
 }
-.percentify:hover > .ifs47:before {
+.percentify.hover:hover > .ifs47:before {
   font-size: 71px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92085,7 +92085,7 @@
 .percentify > .ifs48:before {
   font-size: 48px;
 }
-.percentify:hover > .ifs48:before {
+.percentify.hover:hover > .ifs48:before {
   font-size: 72px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92099,7 +92099,7 @@
 .percentify > .ifs49:before {
   font-size: 49px;
 }
-.percentify:hover > .ifs49:before {
+.percentify.hover:hover > .ifs49:before {
   font-size: 74px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92113,7 +92113,7 @@
 .percentify > .ifs50:before {
   font-size: 50px;
 }
-.percentify:hover > .ifs50:before {
+.percentify.hover:hover > .ifs50:before {
   font-size: 75px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92127,7 +92127,7 @@
 .percentify > .ifs51:before {
   font-size: 51px;
 }
-.percentify:hover > .ifs51:before {
+.percentify.hover:hover > .ifs51:before {
   font-size: 77px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92141,7 +92141,7 @@
 .percentify > .ifs52:before {
   font-size: 52px;
 }
-.percentify:hover > .ifs52:before {
+.percentify.hover:hover > .ifs52:before {
   font-size: 78px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92155,7 +92155,7 @@
 .percentify > .ifs53:before {
   font-size: 53px;
 }
-.percentify:hover > .ifs53:before {
+.percentify.hover:hover > .ifs53:before {
   font-size: 80px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92169,7 +92169,7 @@
 .percentify > .ifs54:before {
   font-size: 54px;
 }
-.percentify:hover > .ifs54:before {
+.percentify.hover:hover > .ifs54:before {
   font-size: 81px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92183,7 +92183,7 @@
 .percentify > .ifs55:before {
   font-size: 55px;
 }
-.percentify:hover > .ifs55:before {
+.percentify.hover:hover > .ifs55:before {
   font-size: 83px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92197,7 +92197,7 @@
 .percentify > .ifs56:before {
   font-size: 56px;
 }
-.percentify:hover > .ifs56:before {
+.percentify.hover:hover > .ifs56:before {
   font-size: 84px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92211,7 +92211,7 @@
 .percentify > .ifs57:before {
   font-size: 57px;
 }
-.percentify:hover > .ifs57:before {
+.percentify.hover:hover > .ifs57:before {
   font-size: 86px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92225,7 +92225,7 @@
 .percentify > .ifs58:before {
   font-size: 58px;
 }
-.percentify:hover > .ifs58:before {
+.percentify.hover:hover > .ifs58:before {
   font-size: 87px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92239,7 +92239,7 @@
 .percentify > .ifs59:before {
   font-size: 59px;
 }
-.percentify:hover > .ifs59:before {
+.percentify.hover:hover > .ifs59:before {
   font-size: 89px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92253,7 +92253,7 @@
 .percentify > .ifs60:before {
   font-size: 60px;
 }
-.percentify:hover > .ifs60:before {
+.percentify.hover:hover > .ifs60:before {
   font-size: 90px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92267,7 +92267,7 @@
 .percentify > .ifs61:before {
   font-size: 61px;
 }
-.percentify:hover > .ifs61:before {
+.percentify.hover:hover > .ifs61:before {
   font-size: 92px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92281,7 +92281,7 @@
 .percentify > .ifs62:before {
   font-size: 62px;
 }
-.percentify:hover > .ifs62:before {
+.percentify.hover:hover > .ifs62:before {
   font-size: 93px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92295,7 +92295,7 @@
 .percentify > .ifs63:before {
   font-size: 63px;
 }
-.percentify:hover > .ifs63:before {
+.percentify.hover:hover > .ifs63:before {
   font-size: 95px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92309,7 +92309,7 @@
 .percentify > .ifs64:before {
   font-size: 64px;
 }
-.percentify:hover > .ifs64:before {
+.percentify.hover:hover > .ifs64:before {
   font-size: 96px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92323,7 +92323,7 @@
 .percentify > .ifs65:before {
   font-size: 65px;
 }
-.percentify:hover > .ifs65:before {
+.percentify.hover:hover > .ifs65:before {
   font-size: 98px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92337,7 +92337,7 @@
 .percentify > .ifs66:before {
   font-size: 66px;
 }
-.percentify:hover > .ifs66:before {
+.percentify.hover:hover > .ifs66:before {
   font-size: 99px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92351,7 +92351,7 @@
 .percentify > .ifs67:before {
   font-size: 67px;
 }
-.percentify:hover > .ifs67:before {
+.percentify.hover:hover > .ifs67:before {
   font-size: 101px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92365,7 +92365,7 @@
 .percentify > .ifs68:before {
   font-size: 68px;
 }
-.percentify:hover > .ifs68:before {
+.percentify.hover:hover > .ifs68:before {
   font-size: 102px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92379,7 +92379,7 @@
 .percentify > .ifs69:before {
   font-size: 69px;
 }
-.percentify:hover > .ifs69:before {
+.percentify.hover:hover > .ifs69:before {
   font-size: 104px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92393,7 +92393,7 @@
 .percentify > .ifs70:before {
   font-size: 70px;
 }
-.percentify:hover > .ifs70:before {
+.percentify.hover:hover > .ifs70:before {
   font-size: 105px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92407,7 +92407,7 @@
 .percentify > .ifs71:before {
   font-size: 71px;
 }
-.percentify:hover > .ifs71:before {
+.percentify.hover:hover > .ifs71:before {
   font-size: 107px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92421,7 +92421,7 @@
 .percentify > .ifs72:before {
   font-size: 72px;
 }
-.percentify:hover > .ifs72:before {
+.percentify.hover:hover > .ifs72:before {
   font-size: 108px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92435,7 +92435,7 @@
 .percentify > .ifs73:before {
   font-size: 73px;
 }
-.percentify:hover > .ifs73:before {
+.percentify.hover:hover > .ifs73:before {
   font-size: 110px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92449,7 +92449,7 @@
 .percentify > .ifs74:before {
   font-size: 74px;
 }
-.percentify:hover > .ifs74:before {
+.percentify.hover:hover > .ifs74:before {
   font-size: 111px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92463,7 +92463,7 @@
 .percentify > .ifs75:before {
   font-size: 75px;
 }
-.percentify:hover > .ifs75:before {
+.percentify.hover:hover > .ifs75:before {
   font-size: 113px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92477,7 +92477,7 @@
 .percentify > .ifs76:before {
   font-size: 76px;
 }
-.percentify:hover > .ifs76:before {
+.percentify.hover:hover > .ifs76:before {
   font-size: 114px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92491,7 +92491,7 @@
 .percentify > .ifs77:before {
   font-size: 77px;
 }
-.percentify:hover > .ifs77:before {
+.percentify.hover:hover > .ifs77:before {
   font-size: 116px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92505,7 +92505,7 @@
 .percentify > .ifs78:before {
   font-size: 78px;
 }
-.percentify:hover > .ifs78:before {
+.percentify.hover:hover > .ifs78:before {
   font-size: 117px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92519,7 +92519,7 @@
 .percentify > .ifs79:before {
   font-size: 79px;
 }
-.percentify:hover > .ifs79:before {
+.percentify.hover:hover > .ifs79:before {
   font-size: 119px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92533,7 +92533,7 @@
 .percentify > .ifs80:before {
   font-size: 80px;
 }
-.percentify:hover > .ifs80:before {
+.percentify.hover:hover > .ifs80:before {
   font-size: 120px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92547,7 +92547,7 @@
 .percentify > .ifs81:before {
   font-size: 81px;
 }
-.percentify:hover > .ifs81:before {
+.percentify.hover:hover > .ifs81:before {
   font-size: 122px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92561,7 +92561,7 @@
 .percentify > .ifs82:before {
   font-size: 82px;
 }
-.percentify:hover > .ifs82:before {
+.percentify.hover:hover > .ifs82:before {
   font-size: 123px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92575,7 +92575,7 @@
 .percentify > .ifs83:before {
   font-size: 83px;
 }
-.percentify:hover > .ifs83:before {
+.percentify.hover:hover > .ifs83:before {
   font-size: 125px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92589,7 +92589,7 @@
 .percentify > .ifs84:before {
   font-size: 84px;
 }
-.percentify:hover > .ifs84:before {
+.percentify.hover:hover > .ifs84:before {
   font-size: 126px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92603,7 +92603,7 @@
 .percentify > .ifs85:before {
   font-size: 85px;
 }
-.percentify:hover > .ifs85:before {
+.percentify.hover:hover > .ifs85:before {
   font-size: 128px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92617,7 +92617,7 @@
 .percentify > .ifs86:before {
   font-size: 86px;
 }
-.percentify:hover > .ifs86:before {
+.percentify.hover:hover > .ifs86:before {
   font-size: 129px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92631,7 +92631,7 @@
 .percentify > .ifs87:before {
   font-size: 87px;
 }
-.percentify:hover > .ifs87:before {
+.percentify.hover:hover > .ifs87:before {
   font-size: 131px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92645,7 +92645,7 @@
 .percentify > .ifs88:before {
   font-size: 88px;
 }
-.percentify:hover > .ifs88:before {
+.percentify.hover:hover > .ifs88:before {
   font-size: 132px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92659,7 +92659,7 @@
 .percentify > .ifs89:before {
   font-size: 89px;
 }
-.percentify:hover > .ifs89:before {
+.percentify.hover:hover > .ifs89:before {
   font-size: 134px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92673,7 +92673,7 @@
 .percentify > .ifs90:before {
   font-size: 90px;
 }
-.percentify:hover > .ifs90:before {
+.percentify.hover:hover > .ifs90:before {
   font-size: 135px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92687,7 +92687,7 @@
 .percentify > .ifs91:before {
   font-size: 91px;
 }
-.percentify:hover > .ifs91:before {
+.percentify.hover:hover > .ifs91:before {
   font-size: 137px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92701,7 +92701,7 @@
 .percentify > .ifs92:before {
   font-size: 92px;
 }
-.percentify:hover > .ifs92:before {
+.percentify.hover:hover > .ifs92:before {
   font-size: 138px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92715,7 +92715,7 @@
 .percentify > .ifs93:before {
   font-size: 93px;
 }
-.percentify:hover > .ifs93:before {
+.percentify.hover:hover > .ifs93:before {
   font-size: 140px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92729,7 +92729,7 @@
 .percentify > .ifs94:before {
   font-size: 94px;
 }
-.percentify:hover > .ifs94:before {
+.percentify.hover:hover > .ifs94:before {
   font-size: 141px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92743,7 +92743,7 @@
 .percentify > .ifs95:before {
   font-size: 95px;
 }
-.percentify:hover > .ifs95:before {
+.percentify.hover:hover > .ifs95:before {
   font-size: 143px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92757,7 +92757,7 @@
 .percentify > .ifs96:before {
   font-size: 96px;
 }
-.percentify:hover > .ifs96:before {
+.percentify.hover:hover > .ifs96:before {
   font-size: 144px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92771,7 +92771,7 @@
 .percentify > .ifs97:before {
   font-size: 97px;
 }
-.percentify:hover > .ifs97:before {
+.percentify.hover:hover > .ifs97:before {
   font-size: 146px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92785,7 +92785,7 @@
 .percentify > .ifs98:before {
   font-size: 98px;
 }
-.percentify:hover > .ifs98:before {
+.percentify.hover:hover > .ifs98:before {
   font-size: 147px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92799,7 +92799,7 @@
 .percentify > .ifs99:before {
   font-size: 99px;
 }
-.percentify:hover > .ifs99:before {
+.percentify.hover:hover > .ifs99:before {
   font-size: 149px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92813,7 +92813,7 @@
 .percentify > .ifs100:before {
   font-size: 100px;
 }
-.percentify:hover > .ifs100:before {
+.percentify.hover:hover > .ifs100:before {
   font-size: 150px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92827,7 +92827,7 @@
 .percentify > .ifs101:before {
   font-size: 101px;
 }
-.percentify:hover > .ifs101:before {
+.percentify.hover:hover > .ifs101:before {
   font-size: 152px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92841,7 +92841,7 @@
 .percentify > .ifs102:before {
   font-size: 102px;
 }
-.percentify:hover > .ifs102:before {
+.percentify.hover:hover > .ifs102:before {
   font-size: 153px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92855,7 +92855,7 @@
 .percentify > .ifs103:before {
   font-size: 103px;
 }
-.percentify:hover > .ifs103:before {
+.percentify.hover:hover > .ifs103:before {
   font-size: 155px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92869,7 +92869,7 @@
 .percentify > .ifs104:before {
   font-size: 104px;
 }
-.percentify:hover > .ifs104:before {
+.percentify.hover:hover > .ifs104:before {
   font-size: 156px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92883,7 +92883,7 @@
 .percentify > .ifs105:before {
   font-size: 105px;
 }
-.percentify:hover > .ifs105:before {
+.percentify.hover:hover > .ifs105:before {
   font-size: 158px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92897,7 +92897,7 @@
 .percentify > .ifs106:before {
   font-size: 106px;
 }
-.percentify:hover > .ifs106:before {
+.percentify.hover:hover > .ifs106:before {
   font-size: 159px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92911,7 +92911,7 @@
 .percentify > .ifs107:before {
   font-size: 107px;
 }
-.percentify:hover > .ifs107:before {
+.percentify.hover:hover > .ifs107:before {
   font-size: 161px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92925,7 +92925,7 @@
 .percentify > .ifs108:before {
   font-size: 108px;
 }
-.percentify:hover > .ifs108:before {
+.percentify.hover:hover > .ifs108:before {
   font-size: 162px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92939,7 +92939,7 @@
 .percentify > .ifs109:before {
   font-size: 109px;
 }
-.percentify:hover > .ifs109:before {
+.percentify.hover:hover > .ifs109:before {
   font-size: 164px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92953,7 +92953,7 @@
 .percentify > .ifs110:before {
   font-size: 110px;
 }
-.percentify:hover > .ifs110:before {
+.percentify.hover:hover > .ifs110:before {
   font-size: 165px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92967,7 +92967,7 @@
 .percentify > .ifs111:before {
   font-size: 111px;
 }
-.percentify:hover > .ifs111:before {
+.percentify.hover:hover > .ifs111:before {
   font-size: 167px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92981,7 +92981,7 @@
 .percentify > .ifs112:before {
   font-size: 112px;
 }
-.percentify:hover > .ifs112:before {
+.percentify.hover:hover > .ifs112:before {
   font-size: 168px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -92995,7 +92995,7 @@
 .percentify > .ifs113:before {
   font-size: 113px;
 }
-.percentify:hover > .ifs113:before {
+.percentify.hover:hover > .ifs113:before {
   font-size: 170px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93009,7 +93009,7 @@
 .percentify > .ifs114:before {
   font-size: 114px;
 }
-.percentify:hover > .ifs114:before {
+.percentify.hover:hover > .ifs114:before {
   font-size: 171px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93023,7 +93023,7 @@
 .percentify > .ifs115:before {
   font-size: 115px;
 }
-.percentify:hover > .ifs115:before {
+.percentify.hover:hover > .ifs115:before {
   font-size: 173px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93037,7 +93037,7 @@
 .percentify > .ifs116:before {
   font-size: 116px;
 }
-.percentify:hover > .ifs116:before {
+.percentify.hover:hover > .ifs116:before {
   font-size: 174px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93051,7 +93051,7 @@
 .percentify > .ifs117:before {
   font-size: 117px;
 }
-.percentify:hover > .ifs117:before {
+.percentify.hover:hover > .ifs117:before {
   font-size: 176px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93065,7 +93065,7 @@
 .percentify > .ifs118:before {
   font-size: 118px;
 }
-.percentify:hover > .ifs118:before {
+.percentify.hover:hover > .ifs118:before {
   font-size: 177px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93079,7 +93079,7 @@
 .percentify > .ifs119:before {
   font-size: 119px;
 }
-.percentify:hover > .ifs119:before {
+.percentify.hover:hover > .ifs119:before {
   font-size: 179px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93093,7 +93093,7 @@
 .percentify > .ifs120:before {
   font-size: 120px;
 }
-.percentify:hover > .ifs120:before {
+.percentify.hover:hover > .ifs120:before {
   font-size: 180px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93107,7 +93107,7 @@
 .percentify > .ifs121:before {
   font-size: 121px;
 }
-.percentify:hover > .ifs121:before {
+.percentify.hover:hover > .ifs121:before {
   font-size: 182px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93121,7 +93121,7 @@
 .percentify > .ifs122:before {
   font-size: 122px;
 }
-.percentify:hover > .ifs122:before {
+.percentify.hover:hover > .ifs122:before {
   font-size: 183px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93135,7 +93135,7 @@
 .percentify > .ifs123:before {
   font-size: 123px;
 }
-.percentify:hover > .ifs123:before {
+.percentify.hover:hover > .ifs123:before {
   font-size: 185px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93149,7 +93149,7 @@
 .percentify > .ifs124:before {
   font-size: 124px;
 }
-.percentify:hover > .ifs124:before {
+.percentify.hover:hover > .ifs124:before {
   font-size: 186px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93163,7 +93163,7 @@
 .percentify > .ifs125:before {
   font-size: 125px;
 }
-.percentify:hover > .ifs125:before {
+.percentify.hover:hover > .ifs125:before {
   font-size: 188px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93177,7 +93177,7 @@
 .percentify > .ifs126:before {
   font-size: 126px;
 }
-.percentify:hover > .ifs126:before {
+.percentify.hover:hover > .ifs126:before {
   font-size: 189px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93191,7 +93191,7 @@
 .percentify > .ifs127:before {
   font-size: 127px;
 }
-.percentify:hover > .ifs127:before {
+.percentify.hover:hover > .ifs127:before {
   font-size: 191px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93205,7 +93205,7 @@
 .percentify > .ifs128:before {
   font-size: 128px;
 }
-.percentify:hover > .ifs128:before {
+.percentify.hover:hover > .ifs128:before {
   font-size: 192px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93219,7 +93219,7 @@
 .percentify > .ifs129:before {
   font-size: 129px;
 }
-.percentify:hover > .ifs129:before {
+.percentify.hover:hover > .ifs129:before {
   font-size: 194px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93233,7 +93233,7 @@
 .percentify > .ifs130:before {
   font-size: 130px;
 }
-.percentify:hover > .ifs130:before {
+.percentify.hover:hover > .ifs130:before {
   font-size: 195px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93247,7 +93247,7 @@
 .percentify > .ifs131:before {
   font-size: 131px;
 }
-.percentify:hover > .ifs131:before {
+.percentify.hover:hover > .ifs131:before {
   font-size: 197px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93261,7 +93261,7 @@
 .percentify > .ifs132:before {
   font-size: 132px;
 }
-.percentify:hover > .ifs132:before {
+.percentify.hover:hover > .ifs132:before {
   font-size: 198px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93275,7 +93275,7 @@
 .percentify > .ifs133:before {
   font-size: 133px;
 }
-.percentify:hover > .ifs133:before {
+.percentify.hover:hover > .ifs133:before {
   font-size: 200px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93289,7 +93289,7 @@
 .percentify > .ifs134:before {
   font-size: 134px;
 }
-.percentify:hover > .ifs134:before {
+.percentify.hover:hover > .ifs134:before {
   font-size: 201px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93303,7 +93303,7 @@
 .percentify > .ifs135:before {
   font-size: 135px;
 }
-.percentify:hover > .ifs135:before {
+.percentify.hover:hover > .ifs135:before {
   font-size: 203px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93317,7 +93317,7 @@
 .percentify > .ifs136:before {
   font-size: 136px;
 }
-.percentify:hover > .ifs136:before {
+.percentify.hover:hover > .ifs136:before {
   font-size: 204px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93331,7 +93331,7 @@
 .percentify > .ifs137:before {
   font-size: 137px;
 }
-.percentify:hover > .ifs137:before {
+.percentify.hover:hover > .ifs137:before {
   font-size: 206px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93345,7 +93345,7 @@
 .percentify > .ifs138:before {
   font-size: 138px;
 }
-.percentify:hover > .ifs138:before {
+.percentify.hover:hover > .ifs138:before {
   font-size: 207px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93359,7 +93359,7 @@
 .percentify > .ifs139:before {
   font-size: 139px;
 }
-.percentify:hover > .ifs139:before {
+.percentify.hover:hover > .ifs139:before {
   font-size: 209px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93373,7 +93373,7 @@
 .percentify > .ifs140:before {
   font-size: 140px;
 }
-.percentify:hover > .ifs140:before {
+.percentify.hover:hover > .ifs140:before {
   font-size: 210px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93387,7 +93387,7 @@
 .percentify > .ifs141:before {
   font-size: 141px;
 }
-.percentify:hover > .ifs141:before {
+.percentify.hover:hover > .ifs141:before {
   font-size: 212px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93401,7 +93401,7 @@
 .percentify > .ifs142:before {
   font-size: 142px;
 }
-.percentify:hover > .ifs142:before {
+.percentify.hover:hover > .ifs142:before {
   font-size: 213px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93415,7 +93415,7 @@
 .percentify > .ifs143:before {
   font-size: 143px;
 }
-.percentify:hover > .ifs143:before {
+.percentify.hover:hover > .ifs143:before {
   font-size: 215px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93429,7 +93429,7 @@
 .percentify > .ifs144:before {
   font-size: 144px;
 }
-.percentify:hover > .ifs144:before {
+.percentify.hover:hover > .ifs144:before {
   font-size: 216px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93443,7 +93443,7 @@
 .percentify > .ifs145:before {
   font-size: 145px;
 }
-.percentify:hover > .ifs145:before {
+.percentify.hover:hover > .ifs145:before {
   font-size: 218px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93457,7 +93457,7 @@
 .percentify > .ifs146:before {
   font-size: 146px;
 }
-.percentify:hover > .ifs146:before {
+.percentify.hover:hover > .ifs146:before {
   font-size: 219px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93471,7 +93471,7 @@
 .percentify > .ifs147:before {
   font-size: 147px;
 }
-.percentify:hover > .ifs147:before {
+.percentify.hover:hover > .ifs147:before {
   font-size: 221px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93485,7 +93485,7 @@
 .percentify > .ifs148:before {
   font-size: 148px;
 }
-.percentify:hover > .ifs148:before {
+.percentify.hover:hover > .ifs148:before {
   font-size: 222px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93499,7 +93499,7 @@
 .percentify > .ifs149:before {
   font-size: 149px;
 }
-.percentify:hover > .ifs149:before {
+.percentify.hover:hover > .ifs149:before {
   font-size: 224px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93513,7 +93513,7 @@
 .percentify > .ifs150:before {
   font-size: 150px;
 }
-.percentify:hover > .ifs150:before {
+.percentify.hover:hover > .ifs150:before {
   font-size: 225px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93527,7 +93527,7 @@
 .percentify > .ifs151:before {
   font-size: 151px;
 }
-.percentify:hover > .ifs151:before {
+.percentify.hover:hover > .ifs151:before {
   font-size: 227px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93541,7 +93541,7 @@
 .percentify > .ifs152:before {
   font-size: 152px;
 }
-.percentify:hover > .ifs152:before {
+.percentify.hover:hover > .ifs152:before {
   font-size: 228px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93555,7 +93555,7 @@
 .percentify > .ifs153:before {
   font-size: 153px;
 }
-.percentify:hover > .ifs153:before {
+.percentify.hover:hover > .ifs153:before {
   font-size: 230px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93569,7 +93569,7 @@
 .percentify > .ifs154:before {
   font-size: 154px;
 }
-.percentify:hover > .ifs154:before {
+.percentify.hover:hover > .ifs154:before {
   font-size: 231px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93583,7 +93583,7 @@
 .percentify > .ifs155:before {
   font-size: 155px;
 }
-.percentify:hover > .ifs155:before {
+.percentify.hover:hover > .ifs155:before {
   font-size: 233px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93597,7 +93597,7 @@
 .percentify > .ifs156:before {
   font-size: 156px;
 }
-.percentify:hover > .ifs156:before {
+.percentify.hover:hover > .ifs156:before {
   font-size: 234px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93611,7 +93611,7 @@
 .percentify > .ifs157:before {
   font-size: 157px;
 }
-.percentify:hover > .ifs157:before {
+.percentify.hover:hover > .ifs157:before {
   font-size: 236px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93625,7 +93625,7 @@
 .percentify > .ifs158:before {
   font-size: 158px;
 }
-.percentify:hover > .ifs158:before {
+.percentify.hover:hover > .ifs158:before {
   font-size: 237px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93639,7 +93639,7 @@
 .percentify > .ifs159:before {
   font-size: 159px;
 }
-.percentify:hover > .ifs159:before {
+.percentify.hover:hover > .ifs159:before {
   font-size: 239px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93653,7 +93653,7 @@
 .percentify > .ifs160:before {
   font-size: 160px;
 }
-.percentify:hover > .ifs160:before {
+.percentify.hover:hover > .ifs160:before {
   font-size: 240px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93667,7 +93667,7 @@
 .percentify > .ifs161:before {
   font-size: 161px;
 }
-.percentify:hover > .ifs161:before {
+.percentify.hover:hover > .ifs161:before {
   font-size: 242px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93681,7 +93681,7 @@
 .percentify > .ifs162:before {
   font-size: 162px;
 }
-.percentify:hover > .ifs162:before {
+.percentify.hover:hover > .ifs162:before {
   font-size: 243px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93695,7 +93695,7 @@
 .percentify > .ifs163:before {
   font-size: 163px;
 }
-.percentify:hover > .ifs163:before {
+.percentify.hover:hover > .ifs163:before {
   font-size: 245px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93709,7 +93709,7 @@
 .percentify > .ifs164:before {
   font-size: 164px;
 }
-.percentify:hover > .ifs164:before {
+.percentify.hover:hover > .ifs164:before {
   font-size: 246px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93723,7 +93723,7 @@
 .percentify > .ifs165:before {
   font-size: 165px;
 }
-.percentify:hover > .ifs165:before {
+.percentify.hover:hover > .ifs165:before {
   font-size: 248px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93737,7 +93737,7 @@
 .percentify > .ifs166:before {
   font-size: 166px;
 }
-.percentify:hover > .ifs166:before {
+.percentify.hover:hover > .ifs166:before {
   font-size: 249px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93751,7 +93751,7 @@
 .percentify > .ifs167:before {
   font-size: 167px;
 }
-.percentify:hover > .ifs167:before {
+.percentify.hover:hover > .ifs167:before {
   font-size: 251px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93765,7 +93765,7 @@
 .percentify > .ifs168:before {
   font-size: 168px;
 }
-.percentify:hover > .ifs168:before {
+.percentify.hover:hover > .ifs168:before {
   font-size: 252px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93779,7 +93779,7 @@
 .percentify > .ifs169:before {
   font-size: 169px;
 }
-.percentify:hover > .ifs169:before {
+.percentify.hover:hover > .ifs169:before {
   font-size: 254px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93793,7 +93793,7 @@
 .percentify > .ifs170:before {
   font-size: 170px;
 }
-.percentify:hover > .ifs170:before {
+.percentify.hover:hover > .ifs170:before {
   font-size: 255px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93807,7 +93807,7 @@
 .percentify > .ifs171:before {
   font-size: 171px;
 }
-.percentify:hover > .ifs171:before {
+.percentify.hover:hover > .ifs171:before {
   font-size: 257px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93821,7 +93821,7 @@
 .percentify > .ifs172:before {
   font-size: 172px;
 }
-.percentify:hover > .ifs172:before {
+.percentify.hover:hover > .ifs172:before {
   font-size: 258px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93835,7 +93835,7 @@
 .percentify > .ifs173:before {
   font-size: 173px;
 }
-.percentify:hover > .ifs173:before {
+.percentify.hover:hover > .ifs173:before {
   font-size: 260px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93849,7 +93849,7 @@
 .percentify > .ifs174:before {
   font-size: 174px;
 }
-.percentify:hover > .ifs174:before {
+.percentify.hover:hover > .ifs174:before {
   font-size: 261px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93863,7 +93863,7 @@
 .percentify > .ifs175:before {
   font-size: 175px;
 }
-.percentify:hover > .ifs175:before {
+.percentify.hover:hover > .ifs175:before {
   font-size: 263px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93877,7 +93877,7 @@
 .percentify > .ifs176:before {
   font-size: 176px;
 }
-.percentify:hover > .ifs176:before {
+.percentify.hover:hover > .ifs176:before {
   font-size: 264px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93891,7 +93891,7 @@
 .percentify > .ifs177:before {
   font-size: 177px;
 }
-.percentify:hover > .ifs177:before {
+.percentify.hover:hover > .ifs177:before {
   font-size: 266px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93905,7 +93905,7 @@
 .percentify > .ifs178:before {
   font-size: 178px;
 }
-.percentify:hover > .ifs178:before {
+.percentify.hover:hover > .ifs178:before {
   font-size: 267px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93919,7 +93919,7 @@
 .percentify > .ifs179:before {
   font-size: 179px;
 }
-.percentify:hover > .ifs179:before {
+.percentify.hover:hover > .ifs179:before {
   font-size: 269px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93933,7 +93933,7 @@
 .percentify > .ifs180:before {
   font-size: 180px;
 }
-.percentify:hover > .ifs180:before {
+.percentify.hover:hover > .ifs180:before {
   font-size: 270px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93947,7 +93947,7 @@
 .percentify > .ifs181:before {
   font-size: 181px;
 }
-.percentify:hover > .ifs181:before {
+.percentify.hover:hover > .ifs181:before {
   font-size: 272px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93961,7 +93961,7 @@
 .percentify > .ifs182:before {
   font-size: 182px;
 }
-.percentify:hover > .ifs182:before {
+.percentify.hover:hover > .ifs182:before {
   font-size: 273px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93975,7 +93975,7 @@
 .percentify > .ifs183:before {
   font-size: 183px;
 }
-.percentify:hover > .ifs183:before {
+.percentify.hover:hover > .ifs183:before {
   font-size: 275px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -93989,7 +93989,7 @@
 .percentify > .ifs184:before {
   font-size: 184px;
 }
-.percentify:hover > .ifs184:before {
+.percentify.hover:hover > .ifs184:before {
   font-size: 276px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94003,7 +94003,7 @@
 .percentify > .ifs185:before {
   font-size: 185px;
 }
-.percentify:hover > .ifs185:before {
+.percentify.hover:hover > .ifs185:before {
   font-size: 278px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94017,7 +94017,7 @@
 .percentify > .ifs186:before {
   font-size: 186px;
 }
-.percentify:hover > .ifs186:before {
+.percentify.hover:hover > .ifs186:before {
   font-size: 279px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94031,7 +94031,7 @@
 .percentify > .ifs187:before {
   font-size: 187px;
 }
-.percentify:hover > .ifs187:before {
+.percentify.hover:hover > .ifs187:before {
   font-size: 281px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94045,7 +94045,7 @@
 .percentify > .ifs188:before {
   font-size: 188px;
 }
-.percentify:hover > .ifs188:before {
+.percentify.hover:hover > .ifs188:before {
   font-size: 282px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94059,7 +94059,7 @@
 .percentify > .ifs189:before {
   font-size: 189px;
 }
-.percentify:hover > .ifs189:before {
+.percentify.hover:hover > .ifs189:before {
   font-size: 284px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94073,7 +94073,7 @@
 .percentify > .ifs190:before {
   font-size: 190px;
 }
-.percentify:hover > .ifs190:before {
+.percentify.hover:hover > .ifs190:before {
   font-size: 285px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94087,7 +94087,7 @@
 .percentify > .ifs191:before {
   font-size: 191px;
 }
-.percentify:hover > .ifs191:before {
+.percentify.hover:hover > .ifs191:before {
   font-size: 287px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94101,7 +94101,7 @@
 .percentify > .ifs192:before {
   font-size: 192px;
 }
-.percentify:hover > .ifs192:before {
+.percentify.hover:hover > .ifs192:before {
   font-size: 288px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94115,7 +94115,7 @@
 .percentify > .ifs193:before {
   font-size: 193px;
 }
-.percentify:hover > .ifs193:before {
+.percentify.hover:hover > .ifs193:before {
   font-size: 290px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94129,7 +94129,7 @@
 .percentify > .ifs194:before {
   font-size: 194px;
 }
-.percentify:hover > .ifs194:before {
+.percentify.hover:hover > .ifs194:before {
   font-size: 291px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94143,7 +94143,7 @@
 .percentify > .ifs195:before {
   font-size: 195px;
 }
-.percentify:hover > .ifs195:before {
+.percentify.hover:hover > .ifs195:before {
   font-size: 293px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94157,7 +94157,7 @@
 .percentify > .ifs196:before {
   font-size: 196px;
 }
-.percentify:hover > .ifs196:before {
+.percentify.hover:hover > .ifs196:before {
   font-size: 294px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94171,7 +94171,7 @@
 .percentify > .ifs197:before {
   font-size: 197px;
 }
-.percentify:hover > .ifs197:before {
+.percentify.hover:hover > .ifs197:before {
   font-size: 296px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94185,7 +94185,7 @@
 .percentify > .ifs198:before {
   font-size: 198px;
 }
-.percentify:hover > .ifs198:before {
+.percentify.hover:hover > .ifs198:before {
   font-size: 297px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94199,7 +94199,7 @@
 .percentify > .ifs199:before {
   font-size: 199px;
 }
-.percentify:hover > .ifs199:before {
+.percentify.hover:hover > .ifs199:before {
   font-size: 299px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94213,7 +94213,7 @@
 .percentify > .ifs200:before {
   font-size: 200px;
 }
-.percentify:hover > .ifs200:before {
+.percentify.hover:hover > .ifs200:before {
   font-size: 300px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94227,7 +94227,7 @@
 .percentify > .ifs201:before {
   font-size: 201px;
 }
-.percentify:hover > .ifs201:before {
+.percentify.hover:hover > .ifs201:before {
   font-size: 302px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94241,7 +94241,7 @@
 .percentify > .ifs202:before {
   font-size: 202px;
 }
-.percentify:hover > .ifs202:before {
+.percentify.hover:hover > .ifs202:before {
   font-size: 303px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94255,7 +94255,7 @@
 .percentify > .ifs203:before {
   font-size: 203px;
 }
-.percentify:hover > .ifs203:before {
+.percentify.hover:hover > .ifs203:before {
   font-size: 305px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94269,7 +94269,7 @@
 .percentify > .ifs204:before {
   font-size: 204px;
 }
-.percentify:hover > .ifs204:before {
+.percentify.hover:hover > .ifs204:before {
   font-size: 306px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94283,7 +94283,7 @@
 .percentify > .ifs205:before {
   font-size: 205px;
 }
-.percentify:hover > .ifs205:before {
+.percentify.hover:hover > .ifs205:before {
   font-size: 308px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94297,7 +94297,7 @@
 .percentify > .ifs206:before {
   font-size: 206px;
 }
-.percentify:hover > .ifs206:before {
+.percentify.hover:hover > .ifs206:before {
   font-size: 309px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94311,7 +94311,7 @@
 .percentify > .ifs207:before {
   font-size: 207px;
 }
-.percentify:hover > .ifs207:before {
+.percentify.hover:hover > .ifs207:before {
   font-size: 311px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94325,7 +94325,7 @@
 .percentify > .ifs208:before {
   font-size: 208px;
 }
-.percentify:hover > .ifs208:before {
+.percentify.hover:hover > .ifs208:before {
   font-size: 312px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94339,7 +94339,7 @@
 .percentify > .ifs209:before {
   font-size: 209px;
 }
-.percentify:hover > .ifs209:before {
+.percentify.hover:hover > .ifs209:before {
   font-size: 314px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94353,7 +94353,7 @@
 .percentify > .ifs210:before {
   font-size: 210px;
 }
-.percentify:hover > .ifs210:before {
+.percentify.hover:hover > .ifs210:before {
   font-size: 315px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94367,7 +94367,7 @@
 .percentify > .ifs211:before {
   font-size: 211px;
 }
-.percentify:hover > .ifs211:before {
+.percentify.hover:hover > .ifs211:before {
   font-size: 317px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94381,7 +94381,7 @@
 .percentify > .ifs212:before {
   font-size: 212px;
 }
-.percentify:hover > .ifs212:before {
+.percentify.hover:hover > .ifs212:before {
   font-size: 318px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94395,7 +94395,7 @@
 .percentify > .ifs213:before {
   font-size: 213px;
 }
-.percentify:hover > .ifs213:before {
+.percentify.hover:hover > .ifs213:before {
   font-size: 320px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94409,7 +94409,7 @@
 .percentify > .ifs214:before {
   font-size: 214px;
 }
-.percentify:hover > .ifs214:before {
+.percentify.hover:hover > .ifs214:before {
   font-size: 321px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94423,7 +94423,7 @@
 .percentify > .ifs215:before {
   font-size: 215px;
 }
-.percentify:hover > .ifs215:before {
+.percentify.hover:hover > .ifs215:before {
   font-size: 323px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94437,7 +94437,7 @@
 .percentify > .ifs216:before {
   font-size: 216px;
 }
-.percentify:hover > .ifs216:before {
+.percentify.hover:hover > .ifs216:before {
   font-size: 324px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94451,7 +94451,7 @@
 .percentify > .ifs217:before {
   font-size: 217px;
 }
-.percentify:hover > .ifs217:before {
+.percentify.hover:hover > .ifs217:before {
   font-size: 326px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94465,7 +94465,7 @@
 .percentify > .ifs218:before {
   font-size: 218px;
 }
-.percentify:hover > .ifs218:before {
+.percentify.hover:hover > .ifs218:before {
   font-size: 327px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94479,7 +94479,7 @@
 .percentify > .ifs219:before {
   font-size: 219px;
 }
-.percentify:hover > .ifs219:before {
+.percentify.hover:hover > .ifs219:before {
   font-size: 329px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94493,7 +94493,7 @@
 .percentify > .ifs220:before {
   font-size: 220px;
 }
-.percentify:hover > .ifs220:before {
+.percentify.hover:hover > .ifs220:before {
   font-size: 330px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94507,7 +94507,7 @@
 .percentify > .ifs221:before {
   font-size: 221px;
 }
-.percentify:hover > .ifs221:before {
+.percentify.hover:hover > .ifs221:before {
   font-size: 332px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94521,7 +94521,7 @@
 .percentify > .ifs222:before {
   font-size: 222px;
 }
-.percentify:hover > .ifs222:before {
+.percentify.hover:hover > .ifs222:before {
   font-size: 333px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94535,7 +94535,7 @@
 .percentify > .ifs223:before {
   font-size: 223px;
 }
-.percentify:hover > .ifs223:before {
+.percentify.hover:hover > .ifs223:before {
   font-size: 335px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94549,7 +94549,7 @@
 .percentify > .ifs224:before {
   font-size: 224px;
 }
-.percentify:hover > .ifs224:before {
+.percentify.hover:hover > .ifs224:before {
   font-size: 336px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94563,7 +94563,7 @@
 .percentify > .ifs225:before {
   font-size: 225px;
 }
-.percentify:hover > .ifs225:before {
+.percentify.hover:hover > .ifs225:before {
   font-size: 338px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94577,7 +94577,7 @@
 .percentify > .ifs226:before {
   font-size: 226px;
 }
-.percentify:hover > .ifs226:before {
+.percentify.hover:hover > .ifs226:before {
   font-size: 339px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94591,7 +94591,7 @@
 .percentify > .ifs227:before {
   font-size: 227px;
 }
-.percentify:hover > .ifs227:before {
+.percentify.hover:hover > .ifs227:before {
   font-size: 341px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94605,7 +94605,7 @@
 .percentify > .ifs228:before {
   font-size: 228px;
 }
-.percentify:hover > .ifs228:before {
+.percentify.hover:hover > .ifs228:before {
   font-size: 342px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94619,7 +94619,7 @@
 .percentify > .ifs229:before {
   font-size: 229px;
 }
-.percentify:hover > .ifs229:before {
+.percentify.hover:hover > .ifs229:before {
   font-size: 344px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94633,7 +94633,7 @@
 .percentify > .ifs230:before {
   font-size: 230px;
 }
-.percentify:hover > .ifs230:before {
+.percentify.hover:hover > .ifs230:before {
   font-size: 345px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94647,7 +94647,7 @@
 .percentify > .ifs231:before {
   font-size: 231px;
 }
-.percentify:hover > .ifs231:before {
+.percentify.hover:hover > .ifs231:before {
   font-size: 347px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94661,7 +94661,7 @@
 .percentify > .ifs232:before {
   font-size: 232px;
 }
-.percentify:hover > .ifs232:before {
+.percentify.hover:hover > .ifs232:before {
   font-size: 348px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94675,7 +94675,7 @@
 .percentify > .ifs233:before {
   font-size: 233px;
 }
-.percentify:hover > .ifs233:before {
+.percentify.hover:hover > .ifs233:before {
   font-size: 350px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94689,7 +94689,7 @@
 .percentify > .ifs234:before {
   font-size: 234px;
 }
-.percentify:hover > .ifs234:before {
+.percentify.hover:hover > .ifs234:before {
   font-size: 351px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94703,7 +94703,7 @@
 .percentify > .ifs235:before {
   font-size: 235px;
 }
-.percentify:hover > .ifs235:before {
+.percentify.hover:hover > .ifs235:before {
   font-size: 353px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94717,7 +94717,7 @@
 .percentify > .ifs236:before {
   font-size: 236px;
 }
-.percentify:hover > .ifs236:before {
+.percentify.hover:hover > .ifs236:before {
   font-size: 354px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94731,7 +94731,7 @@
 .percentify > .ifs237:before {
   font-size: 237px;
 }
-.percentify:hover > .ifs237:before {
+.percentify.hover:hover > .ifs237:before {
   font-size: 356px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94745,7 +94745,7 @@
 .percentify > .ifs238:before {
   font-size: 238px;
 }
-.percentify:hover > .ifs238:before {
+.percentify.hover:hover > .ifs238:before {
   font-size: 357px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94759,7 +94759,7 @@
 .percentify > .ifs239:before {
   font-size: 239px;
 }
-.percentify:hover > .ifs239:before {
+.percentify.hover:hover > .ifs239:before {
   font-size: 359px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94773,7 +94773,7 @@
 .percentify > .ifs240:before {
   font-size: 240px;
 }
-.percentify:hover > .ifs240:before {
+.percentify.hover:hover > .ifs240:before {
   font-size: 360px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94787,7 +94787,7 @@
 .percentify > .ifs241:before {
   font-size: 241px;
 }
-.percentify:hover > .ifs241:before {
+.percentify.hover:hover > .ifs241:before {
   font-size: 362px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94801,7 +94801,7 @@
 .percentify > .ifs242:before {
   font-size: 242px;
 }
-.percentify:hover > .ifs242:before {
+.percentify.hover:hover > .ifs242:before {
   font-size: 363px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94815,7 +94815,7 @@
 .percentify > .ifs243:before {
   font-size: 243px;
 }
-.percentify:hover > .ifs243:before {
+.percentify.hover:hover > .ifs243:before {
   font-size: 365px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94829,7 +94829,7 @@
 .percentify > .ifs244:before {
   font-size: 244px;
 }
-.percentify:hover > .ifs244:before {
+.percentify.hover:hover > .ifs244:before {
   font-size: 366px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94843,7 +94843,7 @@
 .percentify > .ifs245:before {
   font-size: 245px;
 }
-.percentify:hover > .ifs245:before {
+.percentify.hover:hover > .ifs245:before {
   font-size: 368px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94857,7 +94857,7 @@
 .percentify > .ifs246:before {
   font-size: 246px;
 }
-.percentify:hover > .ifs246:before {
+.percentify.hover:hover > .ifs246:before {
   font-size: 369px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94871,7 +94871,7 @@
 .percentify > .ifs247:before {
   font-size: 247px;
 }
-.percentify:hover > .ifs247:before {
+.percentify.hover:hover > .ifs247:before {
   font-size: 371px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94885,7 +94885,7 @@
 .percentify > .ifs248:before {
   font-size: 248px;
 }
-.percentify:hover > .ifs248:before {
+.percentify.hover:hover > .ifs248:before {
   font-size: 372px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94899,7 +94899,7 @@
 .percentify > .ifs249:before {
   font-size: 249px;
 }
-.percentify:hover > .ifs249:before {
+.percentify.hover:hover > .ifs249:before {
   font-size: 374px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94913,7 +94913,7 @@
 .percentify > .ifs250:before {
   font-size: 250px;
 }
-.percentify:hover > .ifs250:before {
+.percentify.hover:hover > .ifs250:before {
   font-size: 375px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94927,7 +94927,7 @@
 .percentify > .ifs251:before {
   font-size: 251px;
 }
-.percentify:hover > .ifs251:before {
+.percentify.hover:hover > .ifs251:before {
   font-size: 377px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94941,7 +94941,7 @@
 .percentify > .ifs252:before {
   font-size: 252px;
 }
-.percentify:hover > .ifs252:before {
+.percentify.hover:hover > .ifs252:before {
   font-size: 378px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94955,7 +94955,7 @@
 .percentify > .ifs253:before {
   font-size: 253px;
 }
-.percentify:hover > .ifs253:before {
+.percentify.hover:hover > .ifs253:before {
   font-size: 380px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94969,7 +94969,7 @@
 .percentify > .ifs254:before {
   font-size: 254px;
 }
-.percentify:hover > .ifs254:before {
+.percentify.hover:hover > .ifs254:before {
   font-size: 381px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94983,7 +94983,7 @@
 .percentify > .ifs255:before {
   font-size: 255px;
 }
-.percentify:hover > .ifs255:before {
+.percentify.hover:hover > .ifs255:before {
   font-size: 383px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -94997,7 +94997,7 @@
 .percentify > .ifs256:before {
   font-size: 256px;
 }
-.percentify:hover > .ifs256:before {
+.percentify.hover:hover > .ifs256:before {
   font-size: 384px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95011,7 +95011,7 @@
 .percentify > .ifs257:before {
   font-size: 257px;
 }
-.percentify:hover > .ifs257:before {
+.percentify.hover:hover > .ifs257:before {
   font-size: 386px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95025,7 +95025,7 @@
 .percentify > .ifs258:before {
   font-size: 258px;
 }
-.percentify:hover > .ifs258:before {
+.percentify.hover:hover > .ifs258:before {
   font-size: 387px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95039,7 +95039,7 @@
 .percentify > .ifs259:before {
   font-size: 259px;
 }
-.percentify:hover > .ifs259:before {
+.percentify.hover:hover > .ifs259:before {
   font-size: 389px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95053,7 +95053,7 @@
 .percentify > .ifs260:before {
   font-size: 260px;
 }
-.percentify:hover > .ifs260:before {
+.percentify.hover:hover > .ifs260:before {
   font-size: 390px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95067,7 +95067,7 @@
 .percentify > .ifs261:before {
   font-size: 261px;
 }
-.percentify:hover > .ifs261:before {
+.percentify.hover:hover > .ifs261:before {
   font-size: 392px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95081,7 +95081,7 @@
 .percentify > .ifs262:before {
   font-size: 262px;
 }
-.percentify:hover > .ifs262:before {
+.percentify.hover:hover > .ifs262:before {
   font-size: 393px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95095,7 +95095,7 @@
 .percentify > .ifs263:before {
   font-size: 263px;
 }
-.percentify:hover > .ifs263:before {
+.percentify.hover:hover > .ifs263:before {
   font-size: 395px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95109,7 +95109,7 @@
 .percentify > .ifs264:before {
   font-size: 264px;
 }
-.percentify:hover > .ifs264:before {
+.percentify.hover:hover > .ifs264:before {
   font-size: 396px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95123,7 +95123,7 @@
 .percentify > .ifs265:before {
   font-size: 265px;
 }
-.percentify:hover > .ifs265:before {
+.percentify.hover:hover > .ifs265:before {
   font-size: 398px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95137,7 +95137,7 @@
 .percentify > .ifs266:before {
   font-size: 266px;
 }
-.percentify:hover > .ifs266:before {
+.percentify.hover:hover > .ifs266:before {
   font-size: 399px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95151,7 +95151,7 @@
 .percentify > .ifs267:before {
   font-size: 267px;
 }
-.percentify:hover > .ifs267:before {
+.percentify.hover:hover > .ifs267:before {
   font-size: 401px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95165,7 +95165,7 @@
 .percentify > .ifs268:before {
   font-size: 268px;
 }
-.percentify:hover > .ifs268:before {
+.percentify.hover:hover > .ifs268:before {
   font-size: 402px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95179,7 +95179,7 @@
 .percentify > .ifs269:before {
   font-size: 269px;
 }
-.percentify:hover > .ifs269:before {
+.percentify.hover:hover > .ifs269:before {
   font-size: 404px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95193,7 +95193,7 @@
 .percentify > .ifs270:before {
   font-size: 270px;
 }
-.percentify:hover > .ifs270:before {
+.percentify.hover:hover > .ifs270:before {
   font-size: 405px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95207,7 +95207,7 @@
 .percentify > .ifs271:before {
   font-size: 271px;
 }
-.percentify:hover > .ifs271:before {
+.percentify.hover:hover > .ifs271:before {
   font-size: 407px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95221,7 +95221,7 @@
 .percentify > .ifs272:before {
   font-size: 272px;
 }
-.percentify:hover > .ifs272:before {
+.percentify.hover:hover > .ifs272:before {
   font-size: 408px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95235,7 +95235,7 @@
 .percentify > .ifs273:before {
   font-size: 273px;
 }
-.percentify:hover > .ifs273:before {
+.percentify.hover:hover > .ifs273:before {
   font-size: 410px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95249,7 +95249,7 @@
 .percentify > .ifs274:before {
   font-size: 274px;
 }
-.percentify:hover > .ifs274:before {
+.percentify.hover:hover > .ifs274:before {
   font-size: 411px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95263,7 +95263,7 @@
 .percentify > .ifs275:before {
   font-size: 275px;
 }
-.percentify:hover > .ifs275:before {
+.percentify.hover:hover > .ifs275:before {
   font-size: 413px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95277,7 +95277,7 @@
 .percentify > .ifs276:before {
   font-size: 276px;
 }
-.percentify:hover > .ifs276:before {
+.percentify.hover:hover > .ifs276:before {
   font-size: 414px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95291,7 +95291,7 @@
 .percentify > .ifs277:before {
   font-size: 277px;
 }
-.percentify:hover > .ifs277:before {
+.percentify.hover:hover > .ifs277:before {
   font-size: 416px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95305,7 +95305,7 @@
 .percentify > .ifs278:before {
   font-size: 278px;
 }
-.percentify:hover > .ifs278:before {
+.percentify.hover:hover > .ifs278:before {
   font-size: 417px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95319,7 +95319,7 @@
 .percentify > .ifs279:before {
   font-size: 279px;
 }
-.percentify:hover > .ifs279:before {
+.percentify.hover:hover > .ifs279:before {
   font-size: 419px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95333,7 +95333,7 @@
 .percentify > .ifs280:before {
   font-size: 280px;
 }
-.percentify:hover > .ifs280:before {
+.percentify.hover:hover > .ifs280:before {
   font-size: 420px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95347,7 +95347,7 @@
 .percentify > .ifs281:before {
   font-size: 281px;
 }
-.percentify:hover > .ifs281:before {
+.percentify.hover:hover > .ifs281:before {
   font-size: 422px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95361,7 +95361,7 @@
 .percentify > .ifs282:before {
   font-size: 282px;
 }
-.percentify:hover > .ifs282:before {
+.percentify.hover:hover > .ifs282:before {
   font-size: 423px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95375,7 +95375,7 @@
 .percentify > .ifs283:before {
   font-size: 283px;
 }
-.percentify:hover > .ifs283:before {
+.percentify.hover:hover > .ifs283:before {
   font-size: 425px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95389,7 +95389,7 @@
 .percentify > .ifs284:before {
   font-size: 284px;
 }
-.percentify:hover > .ifs284:before {
+.percentify.hover:hover > .ifs284:before {
   font-size: 426px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95403,7 +95403,7 @@
 .percentify > .ifs285:before {
   font-size: 285px;
 }
-.percentify:hover > .ifs285:before {
+.percentify.hover:hover > .ifs285:before {
   font-size: 428px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95417,7 +95417,7 @@
 .percentify > .ifs286:before {
   font-size: 286px;
 }
-.percentify:hover > .ifs286:before {
+.percentify.hover:hover > .ifs286:before {
   font-size: 429px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95431,7 +95431,7 @@
 .percentify > .ifs287:before {
   font-size: 287px;
 }
-.percentify:hover > .ifs287:before {
+.percentify.hover:hover > .ifs287:before {
   font-size: 431px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95445,7 +95445,7 @@
 .percentify > .ifs288:before {
   font-size: 288px;
 }
-.percentify:hover > .ifs288:before {
+.percentify.hover:hover > .ifs288:before {
   font-size: 432px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95459,7 +95459,7 @@
 .percentify > .ifs289:before {
   font-size: 289px;
 }
-.percentify:hover > .ifs289:before {
+.percentify.hover:hover > .ifs289:before {
   font-size: 434px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95473,7 +95473,7 @@
 .percentify > .ifs290:before {
   font-size: 290px;
 }
-.percentify:hover > .ifs290:before {
+.percentify.hover:hover > .ifs290:before {
   font-size: 435px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95487,7 +95487,7 @@
 .percentify > .ifs291:before {
   font-size: 291px;
 }
-.percentify:hover > .ifs291:before {
+.percentify.hover:hover > .ifs291:before {
   font-size: 437px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95501,7 +95501,7 @@
 .percentify > .ifs292:before {
   font-size: 292px;
 }
-.percentify:hover > .ifs292:before {
+.percentify.hover:hover > .ifs292:before {
   font-size: 438px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95515,7 +95515,7 @@
 .percentify > .ifs293:before {
   font-size: 293px;
 }
-.percentify:hover > .ifs293:before {
+.percentify.hover:hover > .ifs293:before {
   font-size: 440px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95529,7 +95529,7 @@
 .percentify > .ifs294:before {
   font-size: 294px;
 }
-.percentify:hover > .ifs294:before {
+.percentify.hover:hover > .ifs294:before {
   font-size: 441px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95543,7 +95543,7 @@
 .percentify > .ifs295:before {
   font-size: 295px;
 }
-.percentify:hover > .ifs295:before {
+.percentify.hover:hover > .ifs295:before {
   font-size: 443px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95557,7 +95557,7 @@
 .percentify > .ifs296:before {
   font-size: 296px;
 }
-.percentify:hover > .ifs296:before {
+.percentify.hover:hover > .ifs296:before {
   font-size: 444px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95571,7 +95571,7 @@
 .percentify > .ifs297:before {
   font-size: 297px;
 }
-.percentify:hover > .ifs297:before {
+.percentify.hover:hover > .ifs297:before {
   font-size: 446px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95585,7 +95585,7 @@
 .percentify > .ifs298:before {
   font-size: 298px;
 }
-.percentify:hover > .ifs298:before {
+.percentify.hover:hover > .ifs298:before {
   font-size: 447px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95599,7 +95599,7 @@
 .percentify > .ifs299:before {
   font-size: 299px;
 }
-.percentify:hover > .ifs299:before {
+.percentify.hover:hover > .ifs299:before {
   font-size: 449px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95613,7 +95613,7 @@
 .percentify > .ifs300:before {
   font-size: 300px;
 }
-.percentify:hover > .ifs300:before {
+.percentify.hover:hover > .ifs300:before {
   font-size: 450px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95627,7 +95627,7 @@
 .percentify > .ifs301:before {
   font-size: 301px;
 }
-.percentify:hover > .ifs301:before {
+.percentify.hover:hover > .ifs301:before {
   font-size: 452px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95641,7 +95641,7 @@
 .percentify > .ifs302:before {
   font-size: 302px;
 }
-.percentify:hover > .ifs302:before {
+.percentify.hover:hover > .ifs302:before {
   font-size: 453px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95655,7 +95655,7 @@
 .percentify > .ifs303:before {
   font-size: 303px;
 }
-.percentify:hover > .ifs303:before {
+.percentify.hover:hover > .ifs303:before {
   font-size: 455px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95669,7 +95669,7 @@
 .percentify > .ifs304:before {
   font-size: 304px;
 }
-.percentify:hover > .ifs304:before {
+.percentify.hover:hover > .ifs304:before {
   font-size: 456px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95683,7 +95683,7 @@
 .percentify > .ifs305:before {
   font-size: 305px;
 }
-.percentify:hover > .ifs305:before {
+.percentify.hover:hover > .ifs305:before {
   font-size: 458px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95697,7 +95697,7 @@
 .percentify > .ifs306:before {
   font-size: 306px;
 }
-.percentify:hover > .ifs306:before {
+.percentify.hover:hover > .ifs306:before {
   font-size: 459px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95711,7 +95711,7 @@
 .percentify > .ifs307:before {
   font-size: 307px;
 }
-.percentify:hover > .ifs307:before {
+.percentify.hover:hover > .ifs307:before {
   font-size: 461px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95725,7 +95725,7 @@
 .percentify > .ifs308:before {
   font-size: 308px;
 }
-.percentify:hover > .ifs308:before {
+.percentify.hover:hover > .ifs308:before {
   font-size: 462px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95739,7 +95739,7 @@
 .percentify > .ifs309:before {
   font-size: 309px;
 }
-.percentify:hover > .ifs309:before {
+.percentify.hover:hover > .ifs309:before {
   font-size: 464px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95753,7 +95753,7 @@
 .percentify > .ifs310:before {
   font-size: 310px;
 }
-.percentify:hover > .ifs310:before {
+.percentify.hover:hover > .ifs310:before {
   font-size: 465px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95767,7 +95767,7 @@
 .percentify > .ifs311:before {
   font-size: 311px;
 }
-.percentify:hover > .ifs311:before {
+.percentify.hover:hover > .ifs311:before {
   font-size: 467px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95781,7 +95781,7 @@
 .percentify > .ifs312:before {
   font-size: 312px;
 }
-.percentify:hover > .ifs312:before {
+.percentify.hover:hover > .ifs312:before {
   font-size: 468px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95795,7 +95795,7 @@
 .percentify > .ifs313:before {
   font-size: 313px;
 }
-.percentify:hover > .ifs313:before {
+.percentify.hover:hover > .ifs313:before {
   font-size: 470px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95809,7 +95809,7 @@
 .percentify > .ifs314:before {
   font-size: 314px;
 }
-.percentify:hover > .ifs314:before {
+.percentify.hover:hover > .ifs314:before {
   font-size: 471px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95823,7 +95823,7 @@
 .percentify > .ifs315:before {
   font-size: 315px;
 }
-.percentify:hover > .ifs315:before {
+.percentify.hover:hover > .ifs315:before {
   font-size: 473px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95837,7 +95837,7 @@
 .percentify > .ifs316:before {
   font-size: 316px;
 }
-.percentify:hover > .ifs316:before {
+.percentify.hover:hover > .ifs316:before {
   font-size: 474px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95851,7 +95851,7 @@
 .percentify > .ifs317:before {
   font-size: 317px;
 }
-.percentify:hover > .ifs317:before {
+.percentify.hover:hover > .ifs317:before {
   font-size: 476px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95865,7 +95865,7 @@
 .percentify > .ifs318:before {
   font-size: 318px;
 }
-.percentify:hover > .ifs318:before {
+.percentify.hover:hover > .ifs318:before {
   font-size: 477px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95879,7 +95879,7 @@
 .percentify > .ifs319:before {
   font-size: 319px;
 }
-.percentify:hover > .ifs319:before {
+.percentify.hover:hover > .ifs319:before {
   font-size: 479px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95893,7 +95893,7 @@
 .percentify > .ifs320:before {
   font-size: 320px;
 }
-.percentify:hover > .ifs320:before {
+.percentify.hover:hover > .ifs320:before {
   font-size: 480px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95907,7 +95907,7 @@
 .percentify > .ifs321:before {
   font-size: 321px;
 }
-.percentify:hover > .ifs321:before {
+.percentify.hover:hover > .ifs321:before {
   font-size: 482px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95921,7 +95921,7 @@
 .percentify > .ifs322:before {
   font-size: 322px;
 }
-.percentify:hover > .ifs322:before {
+.percentify.hover:hover > .ifs322:before {
   font-size: 483px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95935,7 +95935,7 @@
 .percentify > .ifs323:before {
   font-size: 323px;
 }
-.percentify:hover > .ifs323:before {
+.percentify.hover:hover > .ifs323:before {
   font-size: 485px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95949,7 +95949,7 @@
 .percentify > .ifs324:before {
   font-size: 324px;
 }
-.percentify:hover > .ifs324:before {
+.percentify.hover:hover > .ifs324:before {
   font-size: 486px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95963,7 +95963,7 @@
 .percentify > .ifs325:before {
   font-size: 325px;
 }
-.percentify:hover > .ifs325:before {
+.percentify.hover:hover > .ifs325:before {
   font-size: 488px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95977,7 +95977,7 @@
 .percentify > .ifs326:before {
   font-size: 326px;
 }
-.percentify:hover > .ifs326:before {
+.percentify.hover:hover > .ifs326:before {
   font-size: 489px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -95991,7 +95991,7 @@
 .percentify > .ifs327:before {
   font-size: 327px;
 }
-.percentify:hover > .ifs327:before {
+.percentify.hover:hover > .ifs327:before {
   font-size: 491px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96005,7 +96005,7 @@
 .percentify > .ifs328:before {
   font-size: 328px;
 }
-.percentify:hover > .ifs328:before {
+.percentify.hover:hover > .ifs328:before {
   font-size: 492px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96019,7 +96019,7 @@
 .percentify > .ifs329:before {
   font-size: 329px;
 }
-.percentify:hover > .ifs329:before {
+.percentify.hover:hover > .ifs329:before {
   font-size: 494px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96033,7 +96033,7 @@
 .percentify > .ifs330:before {
   font-size: 330px;
 }
-.percentify:hover > .ifs330:before {
+.percentify.hover:hover > .ifs330:before {
   font-size: 495px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96047,7 +96047,7 @@
 .percentify > .ifs331:before {
   font-size: 331px;
 }
-.percentify:hover > .ifs331:before {
+.percentify.hover:hover > .ifs331:before {
   font-size: 497px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96061,7 +96061,7 @@
 .percentify > .ifs332:before {
   font-size: 332px;
 }
-.percentify:hover > .ifs332:before {
+.percentify.hover:hover > .ifs332:before {
   font-size: 498px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96075,7 +96075,7 @@
 .percentify > .ifs333:before {
   font-size: 333px;
 }
-.percentify:hover > .ifs333:before {
+.percentify.hover:hover > .ifs333:before {
   font-size: 500px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96089,7 +96089,7 @@
 .percentify > .ifs334:before {
   font-size: 334px;
 }
-.percentify:hover > .ifs334:before {
+.percentify.hover:hover > .ifs334:before {
   font-size: 501px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96103,7 +96103,7 @@
 .percentify > .ifs335:before {
   font-size: 335px;
 }
-.percentify:hover > .ifs335:before {
+.percentify.hover:hover > .ifs335:before {
   font-size: 503px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96117,7 +96117,7 @@
 .percentify > .ifs336:before {
   font-size: 336px;
 }
-.percentify:hover > .ifs336:before {
+.percentify.hover:hover > .ifs336:before {
   font-size: 504px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96131,7 +96131,7 @@
 .percentify > .ifs337:before {
   font-size: 337px;
 }
-.percentify:hover > .ifs337:before {
+.percentify.hover:hover > .ifs337:before {
   font-size: 506px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96145,7 +96145,7 @@
 .percentify > .ifs338:before {
   font-size: 338px;
 }
-.percentify:hover > .ifs338:before {
+.percentify.hover:hover > .ifs338:before {
   font-size: 507px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96159,7 +96159,7 @@
 .percentify > .ifs339:before {
   font-size: 339px;
 }
-.percentify:hover > .ifs339:before {
+.percentify.hover:hover > .ifs339:before {
   font-size: 509px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96173,7 +96173,7 @@
 .percentify > .ifs340:before {
   font-size: 340px;
 }
-.percentify:hover > .ifs340:before {
+.percentify.hover:hover > .ifs340:before {
   font-size: 510px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96187,7 +96187,7 @@
 .percentify > .ifs341:before {
   font-size: 341px;
 }
-.percentify:hover > .ifs341:before {
+.percentify.hover:hover > .ifs341:before {
   font-size: 512px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96201,7 +96201,7 @@
 .percentify > .ifs342:before {
   font-size: 342px;
 }
-.percentify:hover > .ifs342:before {
+.percentify.hover:hover > .ifs342:before {
   font-size: 513px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96215,7 +96215,7 @@
 .percentify > .ifs343:before {
   font-size: 343px;
 }
-.percentify:hover > .ifs343:before {
+.percentify.hover:hover > .ifs343:before {
   font-size: 515px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96229,7 +96229,7 @@
 .percentify > .ifs344:before {
   font-size: 344px;
 }
-.percentify:hover > .ifs344:before {
+.percentify.hover:hover > .ifs344:before {
   font-size: 516px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96243,7 +96243,7 @@
 .percentify > .ifs345:before {
   font-size: 345px;
 }
-.percentify:hover > .ifs345:before {
+.percentify.hover:hover > .ifs345:before {
   font-size: 518px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96257,7 +96257,7 @@
 .percentify > .ifs346:before {
   font-size: 346px;
 }
-.percentify:hover > .ifs346:before {
+.percentify.hover:hover > .ifs346:before {
   font-size: 519px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96271,7 +96271,7 @@
 .percentify > .ifs347:before {
   font-size: 347px;
 }
-.percentify:hover > .ifs347:before {
+.percentify.hover:hover > .ifs347:before {
   font-size: 521px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96285,7 +96285,7 @@
 .percentify > .ifs348:before {
   font-size: 348px;
 }
-.percentify:hover > .ifs348:before {
+.percentify.hover:hover > .ifs348:before {
   font-size: 522px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96299,7 +96299,7 @@
 .percentify > .ifs349:before {
   font-size: 349px;
 }
-.percentify:hover > .ifs349:before {
+.percentify.hover:hover > .ifs349:before {
   font-size: 524px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96313,7 +96313,7 @@
 .percentify > .ifs350:before {
   font-size: 350px;
 }
-.percentify:hover > .ifs350:before {
+.percentify.hover:hover > .ifs350:before {
   font-size: 525px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96327,7 +96327,7 @@
 .percentify > .ifs351:before {
   font-size: 351px;
 }
-.percentify:hover > .ifs351:before {
+.percentify.hover:hover > .ifs351:before {
   font-size: 527px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96341,7 +96341,7 @@
 .percentify > .ifs352:before {
   font-size: 352px;
 }
-.percentify:hover > .ifs352:before {
+.percentify.hover:hover > .ifs352:before {
   font-size: 528px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96355,7 +96355,7 @@
 .percentify > .ifs353:before {
   font-size: 353px;
 }
-.percentify:hover > .ifs353:before {
+.percentify.hover:hover > .ifs353:before {
   font-size: 530px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96369,7 +96369,7 @@
 .percentify > .ifs354:before {
   font-size: 354px;
 }
-.percentify:hover > .ifs354:before {
+.percentify.hover:hover > .ifs354:before {
   font-size: 531px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96383,7 +96383,7 @@
 .percentify > .ifs355:before {
   font-size: 355px;
 }
-.percentify:hover > .ifs355:before {
+.percentify.hover:hover > .ifs355:before {
   font-size: 533px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96397,7 +96397,7 @@
 .percentify > .ifs356:before {
   font-size: 356px;
 }
-.percentify:hover > .ifs356:before {
+.percentify.hover:hover > .ifs356:before {
   font-size: 534px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96411,7 +96411,7 @@
 .percentify > .ifs357:before {
   font-size: 357px;
 }
-.percentify:hover > .ifs357:before {
+.percentify.hover:hover > .ifs357:before {
   font-size: 536px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96425,7 +96425,7 @@
 .percentify > .ifs358:before {
   font-size: 358px;
 }
-.percentify:hover > .ifs358:before {
+.percentify.hover:hover > .ifs358:before {
   font-size: 537px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96439,7 +96439,7 @@
 .percentify > .ifs359:before {
   font-size: 359px;
 }
-.percentify:hover > .ifs359:before {
+.percentify.hover:hover > .ifs359:before {
   font-size: 539px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96453,7 +96453,7 @@
 .percentify > .ifs360:before {
   font-size: 360px;
 }
-.percentify:hover > .ifs360:before {
+.percentify.hover:hover > .ifs360:before {
   font-size: 540px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96467,7 +96467,7 @@
 .percentify > .ifs361:before {
   font-size: 361px;
 }
-.percentify:hover > .ifs361:before {
+.percentify.hover:hover > .ifs361:before {
   font-size: 542px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96481,7 +96481,7 @@
 .percentify > .ifs362:before {
   font-size: 362px;
 }
-.percentify:hover > .ifs362:before {
+.percentify.hover:hover > .ifs362:before {
   font-size: 543px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96495,7 +96495,7 @@
 .percentify > .ifs363:before {
   font-size: 363px;
 }
-.percentify:hover > .ifs363:before {
+.percentify.hover:hover > .ifs363:before {
   font-size: 545px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96509,7 +96509,7 @@
 .percentify > .ifs364:before {
   font-size: 364px;
 }
-.percentify:hover > .ifs364:before {
+.percentify.hover:hover > .ifs364:before {
   font-size: 546px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96523,7 +96523,7 @@
 .percentify > .ifs365:before {
   font-size: 365px;
 }
-.percentify:hover > .ifs365:before {
+.percentify.hover:hover > .ifs365:before {
   font-size: 548px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96537,7 +96537,7 @@
 .percentify > .ifs366:before {
   font-size: 366px;
 }
-.percentify:hover > .ifs366:before {
+.percentify.hover:hover > .ifs366:before {
   font-size: 549px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96551,7 +96551,7 @@
 .percentify > .ifs367:before {
   font-size: 367px;
 }
-.percentify:hover > .ifs367:before {
+.percentify.hover:hover > .ifs367:before {
   font-size: 551px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96565,7 +96565,7 @@
 .percentify > .ifs368:before {
   font-size: 368px;
 }
-.percentify:hover > .ifs368:before {
+.percentify.hover:hover > .ifs368:before {
   font-size: 552px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96579,7 +96579,7 @@
 .percentify > .ifs369:before {
   font-size: 369px;
 }
-.percentify:hover > .ifs369:before {
+.percentify.hover:hover > .ifs369:before {
   font-size: 554px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96593,7 +96593,7 @@
 .percentify > .ifs370:before {
   font-size: 370px;
 }
-.percentify:hover > .ifs370:before {
+.percentify.hover:hover > .ifs370:before {
   font-size: 555px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96607,7 +96607,7 @@
 .percentify > .ifs371:before {
   font-size: 371px;
 }
-.percentify:hover > .ifs371:before {
+.percentify.hover:hover > .ifs371:before {
   font-size: 557px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96621,7 +96621,7 @@
 .percentify > .ifs372:before {
   font-size: 372px;
 }
-.percentify:hover > .ifs372:before {
+.percentify.hover:hover > .ifs372:before {
   font-size: 558px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96635,7 +96635,7 @@
 .percentify > .ifs373:before {
   font-size: 373px;
 }
-.percentify:hover > .ifs373:before {
+.percentify.hover:hover > .ifs373:before {
   font-size: 560px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96649,7 +96649,7 @@
 .percentify > .ifs374:before {
   font-size: 374px;
 }
-.percentify:hover > .ifs374:before {
+.percentify.hover:hover > .ifs374:before {
   font-size: 561px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96663,7 +96663,7 @@
 .percentify > .ifs375:before {
   font-size: 375px;
 }
-.percentify:hover > .ifs375:before {
+.percentify.hover:hover > .ifs375:before {
   font-size: 563px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96677,7 +96677,7 @@
 .percentify > .ifs376:before {
   font-size: 376px;
 }
-.percentify:hover > .ifs376:before {
+.percentify.hover:hover > .ifs376:before {
   font-size: 564px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96691,7 +96691,7 @@
 .percentify > .ifs377:before {
   font-size: 377px;
 }
-.percentify:hover > .ifs377:before {
+.percentify.hover:hover > .ifs377:before {
   font-size: 566px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96705,7 +96705,7 @@
 .percentify > .ifs378:before {
   font-size: 378px;
 }
-.percentify:hover > .ifs378:before {
+.percentify.hover:hover > .ifs378:before {
   font-size: 567px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96719,7 +96719,7 @@
 .percentify > .ifs379:before {
   font-size: 379px;
 }
-.percentify:hover > .ifs379:before {
+.percentify.hover:hover > .ifs379:before {
   font-size: 569px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96733,7 +96733,7 @@
 .percentify > .ifs380:before {
   font-size: 380px;
 }
-.percentify:hover > .ifs380:before {
+.percentify.hover:hover > .ifs380:before {
   font-size: 570px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96747,7 +96747,7 @@
 .percentify > .ifs381:before {
   font-size: 381px;
 }
-.percentify:hover > .ifs381:before {
+.percentify.hover:hover > .ifs381:before {
   font-size: 572px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96761,7 +96761,7 @@
 .percentify > .ifs382:before {
   font-size: 382px;
 }
-.percentify:hover > .ifs382:before {
+.percentify.hover:hover > .ifs382:before {
   font-size: 573px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96775,7 +96775,7 @@
 .percentify > .ifs383:before {
   font-size: 383px;
 }
-.percentify:hover > .ifs383:before {
+.percentify.hover:hover > .ifs383:before {
   font-size: 575px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96789,7 +96789,7 @@
 .percentify > .ifs384:before {
   font-size: 384px;
 }
-.percentify:hover > .ifs384:before {
+.percentify.hover:hover > .ifs384:before {
   font-size: 576px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96803,7 +96803,7 @@
 .percentify > .ifs385:before {
   font-size: 385px;
 }
-.percentify:hover > .ifs385:before {
+.percentify.hover:hover > .ifs385:before {
   font-size: 578px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96817,7 +96817,7 @@
 .percentify > .ifs386:before {
   font-size: 386px;
 }
-.percentify:hover > .ifs386:before {
+.percentify.hover:hover > .ifs386:before {
   font-size: 579px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96831,7 +96831,7 @@
 .percentify > .ifs387:before {
   font-size: 387px;
 }
-.percentify:hover > .ifs387:before {
+.percentify.hover:hover > .ifs387:before {
   font-size: 581px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96845,7 +96845,7 @@
 .percentify > .ifs388:before {
   font-size: 388px;
 }
-.percentify:hover > .ifs388:before {
+.percentify.hover:hover > .ifs388:before {
   font-size: 582px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96859,7 +96859,7 @@
 .percentify > .ifs389:before {
   font-size: 389px;
 }
-.percentify:hover > .ifs389:before {
+.percentify.hover:hover > .ifs389:before {
   font-size: 584px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96873,7 +96873,7 @@
 .percentify > .ifs390:before {
   font-size: 390px;
 }
-.percentify:hover > .ifs390:before {
+.percentify.hover:hover > .ifs390:before {
   font-size: 585px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96887,7 +96887,7 @@
 .percentify > .ifs391:before {
   font-size: 391px;
 }
-.percentify:hover > .ifs391:before {
+.percentify.hover:hover > .ifs391:before {
   font-size: 587px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96901,7 +96901,7 @@
 .percentify > .ifs392:before {
   font-size: 392px;
 }
-.percentify:hover > .ifs392:before {
+.percentify.hover:hover > .ifs392:before {
   font-size: 588px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96915,7 +96915,7 @@
 .percentify > .ifs393:before {
   font-size: 393px;
 }
-.percentify:hover > .ifs393:before {
+.percentify.hover:hover > .ifs393:before {
   font-size: 590px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96929,7 +96929,7 @@
 .percentify > .ifs394:before {
   font-size: 394px;
 }
-.percentify:hover > .ifs394:before {
+.percentify.hover:hover > .ifs394:before {
   font-size: 591px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96943,7 +96943,7 @@
 .percentify > .ifs395:before {
   font-size: 395px;
 }
-.percentify:hover > .ifs395:before {
+.percentify.hover:hover > .ifs395:before {
   font-size: 593px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96957,7 +96957,7 @@
 .percentify > .ifs396:before {
   font-size: 396px;
 }
-.percentify:hover > .ifs396:before {
+.percentify.hover:hover > .ifs396:before {
   font-size: 594px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96971,7 +96971,7 @@
 .percentify > .ifs397:before {
   font-size: 397px;
 }
-.percentify:hover > .ifs397:before {
+.percentify.hover:hover > .ifs397:before {
   font-size: 596px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96985,7 +96985,7 @@
 .percentify > .ifs398:before {
   font-size: 398px;
 }
-.percentify:hover > .ifs398:before {
+.percentify.hover:hover > .ifs398:before {
   font-size: 597px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -96999,7 +96999,7 @@
 .percentify > .ifs399:before {
   font-size: 399px;
 }
-.percentify:hover > .ifs399:before {
+.percentify.hover:hover > .ifs399:before {
   font-size: 599px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97013,7 +97013,7 @@
 .percentify > .ifs400:before {
   font-size: 400px;
 }
-.percentify:hover > .ifs400:before {
+.percentify.hover:hover > .ifs400:before {
   font-size: 600px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97027,7 +97027,7 @@
 .percentify > .ifs401:before {
   font-size: 401px;
 }
-.percentify:hover > .ifs401:before {
+.percentify.hover:hover > .ifs401:before {
   font-size: 602px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97041,7 +97041,7 @@
 .percentify > .ifs402:before {
   font-size: 402px;
 }
-.percentify:hover > .ifs402:before {
+.percentify.hover:hover > .ifs402:before {
   font-size: 603px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97055,7 +97055,7 @@
 .percentify > .ifs403:before {
   font-size: 403px;
 }
-.percentify:hover > .ifs403:before {
+.percentify.hover:hover > .ifs403:before {
   font-size: 605px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97069,7 +97069,7 @@
 .percentify > .ifs404:before {
   font-size: 404px;
 }
-.percentify:hover > .ifs404:before {
+.percentify.hover:hover > .ifs404:before {
   font-size: 606px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97083,7 +97083,7 @@
 .percentify > .ifs405:before {
   font-size: 405px;
 }
-.percentify:hover > .ifs405:before {
+.percentify.hover:hover > .ifs405:before {
   font-size: 608px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97097,7 +97097,7 @@
 .percentify > .ifs406:before {
   font-size: 406px;
 }
-.percentify:hover > .ifs406:before {
+.percentify.hover:hover > .ifs406:before {
   font-size: 609px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97111,7 +97111,7 @@
 .percentify > .ifs407:before {
   font-size: 407px;
 }
-.percentify:hover > .ifs407:before {
+.percentify.hover:hover > .ifs407:before {
   font-size: 611px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97125,7 +97125,7 @@
 .percentify > .ifs408:before {
   font-size: 408px;
 }
-.percentify:hover > .ifs408:before {
+.percentify.hover:hover > .ifs408:before {
   font-size: 612px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97139,7 +97139,7 @@
 .percentify > .ifs409:before {
   font-size: 409px;
 }
-.percentify:hover > .ifs409:before {
+.percentify.hover:hover > .ifs409:before {
   font-size: 614px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97153,7 +97153,7 @@
 .percentify > .ifs410:before {
   font-size: 410px;
 }
-.percentify:hover > .ifs410:before {
+.percentify.hover:hover > .ifs410:before {
   font-size: 615px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97167,7 +97167,7 @@
 .percentify > .ifs411:before {
   font-size: 411px;
 }
-.percentify:hover > .ifs411:before {
+.percentify.hover:hover > .ifs411:before {
   font-size: 617px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97181,7 +97181,7 @@
 .percentify > .ifs412:before {
   font-size: 412px;
 }
-.percentify:hover > .ifs412:before {
+.percentify.hover:hover > .ifs412:before {
   font-size: 618px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97195,7 +97195,7 @@
 .percentify > .ifs413:before {
   font-size: 413px;
 }
-.percentify:hover > .ifs413:before {
+.percentify.hover:hover > .ifs413:before {
   font-size: 620px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97209,7 +97209,7 @@
 .percentify > .ifs414:before {
   font-size: 414px;
 }
-.percentify:hover > .ifs414:before {
+.percentify.hover:hover > .ifs414:before {
   font-size: 621px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97223,7 +97223,7 @@
 .percentify > .ifs415:before {
   font-size: 415px;
 }
-.percentify:hover > .ifs415:before {
+.percentify.hover:hover > .ifs415:before {
   font-size: 623px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97237,7 +97237,7 @@
 .percentify > .ifs416:before {
   font-size: 416px;
 }
-.percentify:hover > .ifs416:before {
+.percentify.hover:hover > .ifs416:before {
   font-size: 624px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97251,7 +97251,7 @@
 .percentify > .ifs417:before {
   font-size: 417px;
 }
-.percentify:hover > .ifs417:before {
+.percentify.hover:hover > .ifs417:before {
   font-size: 626px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97265,7 +97265,7 @@
 .percentify > .ifs418:before {
   font-size: 418px;
 }
-.percentify:hover > .ifs418:before {
+.percentify.hover:hover > .ifs418:before {
   font-size: 627px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97279,7 +97279,7 @@
 .percentify > .ifs419:before {
   font-size: 419px;
 }
-.percentify:hover > .ifs419:before {
+.percentify.hover:hover > .ifs419:before {
   font-size: 629px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97293,7 +97293,7 @@
 .percentify > .ifs420:before {
   font-size: 420px;
 }
-.percentify:hover > .ifs420:before {
+.percentify.hover:hover > .ifs420:before {
   font-size: 630px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97307,7 +97307,7 @@
 .percentify > .ifs421:before {
   font-size: 421px;
 }
-.percentify:hover > .ifs421:before {
+.percentify.hover:hover > .ifs421:before {
   font-size: 632px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97321,7 +97321,7 @@
 .percentify > .ifs422:before {
   font-size: 422px;
 }
-.percentify:hover > .ifs422:before {
+.percentify.hover:hover > .ifs422:before {
   font-size: 633px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97335,7 +97335,7 @@
 .percentify > .ifs423:before {
   font-size: 423px;
 }
-.percentify:hover > .ifs423:before {
+.percentify.hover:hover > .ifs423:before {
   font-size: 635px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97349,7 +97349,7 @@
 .percentify > .ifs424:before {
   font-size: 424px;
 }
-.percentify:hover > .ifs424:before {
+.percentify.hover:hover > .ifs424:before {
   font-size: 636px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97363,7 +97363,7 @@
 .percentify > .ifs425:before {
   font-size: 425px;
 }
-.percentify:hover > .ifs425:before {
+.percentify.hover:hover > .ifs425:before {
   font-size: 638px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97377,7 +97377,7 @@
 .percentify > .ifs426:before {
   font-size: 426px;
 }
-.percentify:hover > .ifs426:before {
+.percentify.hover:hover > .ifs426:before {
   font-size: 639px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97391,7 +97391,7 @@
 .percentify > .ifs427:before {
   font-size: 427px;
 }
-.percentify:hover > .ifs427:before {
+.percentify.hover:hover > .ifs427:before {
   font-size: 641px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97405,7 +97405,7 @@
 .percentify > .ifs428:before {
   font-size: 428px;
 }
-.percentify:hover > .ifs428:before {
+.percentify.hover:hover > .ifs428:before {
   font-size: 642px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97419,7 +97419,7 @@
 .percentify > .ifs429:before {
   font-size: 429px;
 }
-.percentify:hover > .ifs429:before {
+.percentify.hover:hover > .ifs429:before {
   font-size: 644px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97433,7 +97433,7 @@
 .percentify > .ifs430:before {
   font-size: 430px;
 }
-.percentify:hover > .ifs430:before {
+.percentify.hover:hover > .ifs430:before {
   font-size: 645px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97447,7 +97447,7 @@
 .percentify > .ifs431:before {
   font-size: 431px;
 }
-.percentify:hover > .ifs431:before {
+.percentify.hover:hover > .ifs431:before {
   font-size: 647px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97461,7 +97461,7 @@
 .percentify > .ifs432:before {
   font-size: 432px;
 }
-.percentify:hover > .ifs432:before {
+.percentify.hover:hover > .ifs432:before {
   font-size: 648px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97475,7 +97475,7 @@
 .percentify > .ifs433:before {
   font-size: 433px;
 }
-.percentify:hover > .ifs433:before {
+.percentify.hover:hover > .ifs433:before {
   font-size: 650px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97489,7 +97489,7 @@
 .percentify > .ifs434:before {
   font-size: 434px;
 }
-.percentify:hover > .ifs434:before {
+.percentify.hover:hover > .ifs434:before {
   font-size: 651px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97503,7 +97503,7 @@
 .percentify > .ifs435:before {
   font-size: 435px;
 }
-.percentify:hover > .ifs435:before {
+.percentify.hover:hover > .ifs435:before {
   font-size: 653px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97517,7 +97517,7 @@
 .percentify > .ifs436:before {
   font-size: 436px;
 }
-.percentify:hover > .ifs436:before {
+.percentify.hover:hover > .ifs436:before {
   font-size: 654px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97531,7 +97531,7 @@
 .percentify > .ifs437:before {
   font-size: 437px;
 }
-.percentify:hover > .ifs437:before {
+.percentify.hover:hover > .ifs437:before {
   font-size: 656px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97545,7 +97545,7 @@
 .percentify > .ifs438:before {
   font-size: 438px;
 }
-.percentify:hover > .ifs438:before {
+.percentify.hover:hover > .ifs438:before {
   font-size: 657px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97559,7 +97559,7 @@
 .percentify > .ifs439:before {
   font-size: 439px;
 }
-.percentify:hover > .ifs439:before {
+.percentify.hover:hover > .ifs439:before {
   font-size: 659px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97573,7 +97573,7 @@
 .percentify > .ifs440:before {
   font-size: 440px;
 }
-.percentify:hover > .ifs440:before {
+.percentify.hover:hover > .ifs440:before {
   font-size: 660px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97587,7 +97587,7 @@
 .percentify > .ifs441:before {
   font-size: 441px;
 }
-.percentify:hover > .ifs441:before {
+.percentify.hover:hover > .ifs441:before {
   font-size: 662px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97601,7 +97601,7 @@
 .percentify > .ifs442:before {
   font-size: 442px;
 }
-.percentify:hover > .ifs442:before {
+.percentify.hover:hover > .ifs442:before {
   font-size: 663px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97615,7 +97615,7 @@
 .percentify > .ifs443:before {
   font-size: 443px;
 }
-.percentify:hover > .ifs443:before {
+.percentify.hover:hover > .ifs443:before {
   font-size: 665px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97629,7 +97629,7 @@
 .percentify > .ifs444:before {
   font-size: 444px;
 }
-.percentify:hover > .ifs444:before {
+.percentify.hover:hover > .ifs444:before {
   font-size: 666px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97643,7 +97643,7 @@
 .percentify > .ifs445:before {
   font-size: 445px;
 }
-.percentify:hover > .ifs445:before {
+.percentify.hover:hover > .ifs445:before {
   font-size: 668px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97657,7 +97657,7 @@
 .percentify > .ifs446:before {
   font-size: 446px;
 }
-.percentify:hover > .ifs446:before {
+.percentify.hover:hover > .ifs446:before {
   font-size: 669px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97671,7 +97671,7 @@
 .percentify > .ifs447:before {
   font-size: 447px;
 }
-.percentify:hover > .ifs447:before {
+.percentify.hover:hover > .ifs447:before {
   font-size: 671px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97685,7 +97685,7 @@
 .percentify > .ifs448:before {
   font-size: 448px;
 }
-.percentify:hover > .ifs448:before {
+.percentify.hover:hover > .ifs448:before {
   font-size: 672px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97699,7 +97699,7 @@
 .percentify > .ifs449:before {
   font-size: 449px;
 }
-.percentify:hover > .ifs449:before {
+.percentify.hover:hover > .ifs449:before {
   font-size: 674px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97713,7 +97713,7 @@
 .percentify > .ifs450:before {
   font-size: 450px;
 }
-.percentify:hover > .ifs450:before {
+.percentify.hover:hover > .ifs450:before {
   font-size: 675px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97727,7 +97727,7 @@
 .percentify > .ifs451:before {
   font-size: 451px;
 }
-.percentify:hover > .ifs451:before {
+.percentify.hover:hover > .ifs451:before {
   font-size: 677px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97741,7 +97741,7 @@
 .percentify > .ifs452:before {
   font-size: 452px;
 }
-.percentify:hover > .ifs452:before {
+.percentify.hover:hover > .ifs452:before {
   font-size: 678px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97755,7 +97755,7 @@
 .percentify > .ifs453:before {
   font-size: 453px;
 }
-.percentify:hover > .ifs453:before {
+.percentify.hover:hover > .ifs453:before {
   font-size: 680px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97769,7 +97769,7 @@
 .percentify > .ifs454:before {
   font-size: 454px;
 }
-.percentify:hover > .ifs454:before {
+.percentify.hover:hover > .ifs454:before {
   font-size: 681px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97783,7 +97783,7 @@
 .percentify > .ifs455:before {
   font-size: 455px;
 }
-.percentify:hover > .ifs455:before {
+.percentify.hover:hover > .ifs455:before {
   font-size: 683px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97797,7 +97797,7 @@
 .percentify > .ifs456:before {
   font-size: 456px;
 }
-.percentify:hover > .ifs456:before {
+.percentify.hover:hover > .ifs456:before {
   font-size: 684px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97811,7 +97811,7 @@
 .percentify > .ifs457:before {
   font-size: 457px;
 }
-.percentify:hover > .ifs457:before {
+.percentify.hover:hover > .ifs457:before {
   font-size: 686px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97825,7 +97825,7 @@
 .percentify > .ifs458:before {
   font-size: 458px;
 }
-.percentify:hover > .ifs458:before {
+.percentify.hover:hover > .ifs458:before {
   font-size: 687px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97839,7 +97839,7 @@
 .percentify > .ifs459:before {
   font-size: 459px;
 }
-.percentify:hover > .ifs459:before {
+.percentify.hover:hover > .ifs459:before {
   font-size: 689px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97853,7 +97853,7 @@
 .percentify > .ifs460:before {
   font-size: 460px;
 }
-.percentify:hover > .ifs460:before {
+.percentify.hover:hover > .ifs460:before {
   font-size: 690px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97867,7 +97867,7 @@
 .percentify > .ifs461:before {
   font-size: 461px;
 }
-.percentify:hover > .ifs461:before {
+.percentify.hover:hover > .ifs461:before {
   font-size: 692px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97881,7 +97881,7 @@
 .percentify > .ifs462:before {
   font-size: 462px;
 }
-.percentify:hover > .ifs462:before {
+.percentify.hover:hover > .ifs462:before {
   font-size: 693px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97895,7 +97895,7 @@
 .percentify > .ifs463:before {
   font-size: 463px;
 }
-.percentify:hover > .ifs463:before {
+.percentify.hover:hover > .ifs463:before {
   font-size: 695px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97909,7 +97909,7 @@
 .percentify > .ifs464:before {
   font-size: 464px;
 }
-.percentify:hover > .ifs464:before {
+.percentify.hover:hover > .ifs464:before {
   font-size: 696px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97923,7 +97923,7 @@
 .percentify > .ifs465:before {
   font-size: 465px;
 }
-.percentify:hover > .ifs465:before {
+.percentify.hover:hover > .ifs465:before {
   font-size: 698px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97937,7 +97937,7 @@
 .percentify > .ifs466:before {
   font-size: 466px;
 }
-.percentify:hover > .ifs466:before {
+.percentify.hover:hover > .ifs466:before {
   font-size: 699px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97951,7 +97951,7 @@
 .percentify > .ifs467:before {
   font-size: 467px;
 }
-.percentify:hover > .ifs467:before {
+.percentify.hover:hover > .ifs467:before {
   font-size: 701px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97965,7 +97965,7 @@
 .percentify > .ifs468:before {
   font-size: 468px;
 }
-.percentify:hover > .ifs468:before {
+.percentify.hover:hover > .ifs468:before {
   font-size: 702px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97979,7 +97979,7 @@
 .percentify > .ifs469:before {
   font-size: 469px;
 }
-.percentify:hover > .ifs469:before {
+.percentify.hover:hover > .ifs469:before {
   font-size: 704px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -97993,7 +97993,7 @@
 .percentify > .ifs470:before {
   font-size: 470px;
 }
-.percentify:hover > .ifs470:before {
+.percentify.hover:hover > .ifs470:before {
   font-size: 705px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -98007,7 +98007,7 @@
 .percentify > .ifs471:before {
   font-size: 471px;
 }
-.percentify:hover > .ifs471:before {
+.percentify.hover:hover > .ifs471:before {
   font-size: 707px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -98021,7 +98021,7 @@
 .percentify > .ifs472:before {
   font-size: 472px;
 }
-.percentify:hover > .ifs472:before {
+.percentify.hover:hover > .ifs472:before {
   font-size: 708px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -98035,7 +98035,7 @@
 .percentify > .ifs473:before {
   font-size: 473px;
 }
-.percentify:hover > .ifs473:before {
+.percentify.hover:hover > .ifs473:before {
   font-size: 710px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -98049,7 +98049,7 @@
 .percentify > .ifs474:before {
   font-size: 474px;
 }
-.percentify:hover > .ifs474:before {
+.percentify.hover:hover > .ifs474:before {
   font-size: 711px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -98063,7 +98063,7 @@
 .percentify > .ifs475:before {
   font-size: 475px;
 }
-.percentify:hover > .ifs475:before {
+.percentify.hover:hover > .ifs475:before {
   font-size: 713px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -98077,7 +98077,7 @@
 .percentify > .ifs476:before {
   font-size: 476px;
 }
-.percentify:hover > .ifs476:before {
+.percentify.hover:hover > .ifs476:before {
   font-size: 714px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -98091,7 +98091,7 @@
 .percentify > .ifs477:before {
   font-size: 477px;
 }
-.percentify:hover > .ifs477:before {
+.percentify.hover:hover > .ifs477:before {
   font-size: 716px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -98105,7 +98105,7 @@
 .percentify > .ifs478:before {
   font-size: 478px;
 }
-.percentify:hover > .ifs478:before {
+.percentify.hover:hover > .ifs478:before {
   font-size: 717px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -98119,7 +98119,7 @@
 .percentify > .ifs479:before {
   font-size: 479px;
 }
-.percentify:hover > .ifs479:before {
+.percentify.hover:hover > .ifs479:before {
   font-size: 719px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -98133,7 +98133,7 @@
 .percentify > .ifs480:before {
   font-size: 480px;
 }
-.percentify:hover > .ifs480:before {
+.percentify.hover:hover > .ifs480:before {
   font-size: 720px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -98147,7 +98147,7 @@
 .percentify > .ifs481:before {
   font-size: 481px;
 }
-.percentify:hover > .ifs481:before {
+.percentify.hover:hover > .ifs481:before {
   font-size: 722px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -98161,7 +98161,7 @@
 .percentify > .ifs482:before {
   font-size: 482px;
 }
-.percentify:hover > .ifs482:before {
+.percentify.hover:hover > .ifs482:before {
   font-size: 723px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -98175,7 +98175,7 @@
 .percentify > .ifs483:before {
   font-size: 483px;
 }
-.percentify:hover > .ifs483:before {
+.percentify.hover:hover > .ifs483:before {
   font-size: 725px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -98189,7 +98189,7 @@
 .percentify > .ifs484:before {
   font-size: 484px;
 }
-.percentify:hover > .ifs484:before {
+.percentify.hover:hover > .ifs484:before {
   font-size: 726px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -98203,7 +98203,7 @@
 .percentify > .ifs485:before {
   font-size: 485px;
 }
-.percentify:hover > .ifs485:before {
+.percentify.hover:hover > .ifs485:before {
   font-size: 728px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -98217,7 +98217,7 @@
 .percentify > .ifs486:before {
   font-size: 486px;
 }
-.percentify:hover > .ifs486:before {
+.percentify.hover:hover > .ifs486:before {
   font-size: 729px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -98231,7 +98231,7 @@
 .percentify > .ifs487:before {
   font-size: 487px;
 }
-.percentify:hover > .ifs487:before {
+.percentify.hover:hover > .ifs487:before {
   font-size: 731px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -98245,7 +98245,7 @@
 .percentify > .ifs488:before {
   font-size: 488px;
 }
-.percentify:hover > .ifs488:before {
+.percentify.hover:hover > .ifs488:before {
   font-size: 732px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -98259,7 +98259,7 @@
 .percentify > .ifs489:before {
   font-size: 489px;
 }
-.percentify:hover > .ifs489:before {
+.percentify.hover:hover > .ifs489:before {
   font-size: 734px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -98273,7 +98273,7 @@
 .percentify > .ifs490:before {
   font-size: 490px;
 }
-.percentify:hover > .ifs490:before {
+.percentify.hover:hover > .ifs490:before {
   font-size: 735px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -98287,7 +98287,7 @@
 .percentify > .ifs491:before {
   font-size: 491px;
 }
-.percentify:hover > .ifs491:before {
+.percentify.hover:hover > .ifs491:before {
   font-size: 737px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -98301,7 +98301,7 @@
 .percentify > .ifs492:before {
   font-size: 492px;
 }
-.percentify:hover > .ifs492:before {
+.percentify.hover:hover > .ifs492:before {
   font-size: 738px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -98315,7 +98315,7 @@
 .percentify > .ifs493:before {
   font-size: 493px;
 }
-.percentify:hover > .ifs493:before {
+.percentify.hover:hover > .ifs493:before {
   font-size: 740px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -98329,7 +98329,7 @@
 .percentify > .ifs494:before {
   font-size: 494px;
 }
-.percentify:hover > .ifs494:before {
+.percentify.hover:hover > .ifs494:before {
   font-size: 741px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -98343,7 +98343,7 @@
 .percentify > .ifs495:before {
   font-size: 495px;
 }
-.percentify:hover > .ifs495:before {
+.percentify.hover:hover > .ifs495:before {
   font-size: 743px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -98357,7 +98357,7 @@
 .percentify > .ifs496:before {
   font-size: 496px;
 }
-.percentify:hover > .ifs496:before {
+.percentify.hover:hover > .ifs496:before {
   font-size: 744px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -98371,7 +98371,7 @@
 .percentify > .ifs497:before {
   font-size: 497px;
 }
-.percentify:hover > .ifs497:before {
+.percentify.hover:hover > .ifs497:before {
   font-size: 746px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -98385,7 +98385,7 @@
 .percentify > .ifs498:before {
   font-size: 498px;
 }
-.percentify:hover > .ifs498:before {
+.percentify.hover:hover > .ifs498:before {
   font-size: 747px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -98399,7 +98399,7 @@
 .percentify > .ifs499:before {
   font-size: 499px;
 }
-.percentify:hover > .ifs499:before {
+.percentify.hover:hover > .ifs499:before {
   font-size: 749px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -98413,7 +98413,7 @@
 .percentify > .ifs500:before {
   font-size: 500px;
 }
-.percentify:hover > .ifs500:before {
+.percentify.hover:hover > .ifs500:before {
   font-size: 750px;
   -webkit-transition-property: all;
   transition-property: all;
@@ -98435,10 +98435,10 @@
 .percentify.dark:after {
   background-color: #666;
 }
-.percentify.dark:hover > span {
+.percentify.dark.hover:hover > span {
   color: #c6ff00;
 }
-.percentify.dark:hover > span:before {
+.percentify.dark.hover:hover > span:before {
   color: #c6ff00;
 }
 .percentify.dark.active > span {
@@ -98451,10 +98451,10 @@
 .percentify.green .fill {
   border-color: #4db53c !important;
 }
-.percentify.green:hover > span {
+.percentify.green.hover:hover > span {
   color: #4db53c;
 }
-.percentify.green:hover > span:before {
+.percentify.green.hover:hover > span:before {
   color: #4db53c;
 }
 .percentify.green.active > span {
@@ -98467,10 +98467,10 @@
 .percentify.green.dark .fill {
   border-color: #5fd400 !important;
 }
-.percentify.green.dark:hover > span {
+.percentify.green.dark.hover:hover > span {
   color: #5fd400;
 }
-.percentify.green.dark:hover > span:before {
+.percentify.green.dark.hover:hover > span:before {
   color: #5fd400;
 }
 .percentify.green.dark.active > span {
@@ -98483,10 +98483,10 @@
 .percentify.orange .fill {
   border-color: #dd9d22 !important;
 }
-.percentify.orange:hover > span {
+.percentify.orange.hover:hover > span {
   color: #dd9d22;
 }
-.percentify.orange:hover > span:before {
+.percentify.orange.hover:hover > span:before {
   color: #dd9d22;
 }
 .percentify.orange.active > span {
@@ -98499,10 +98499,10 @@
 .percentify.orange.dark .fill {
   border-color: #e08833 !important;
 }
-.percentify.orange.dark:hover > span {
+.percentify.orange.dark.hover:hover > span {
   color: #e08833;
 }
-.percentify.orange.dark:hover > span:before {
+.percentify.orange.dark.hover:hover > span:before {
   color: #e08833;
 }
 .percentify.orange.dark.active > span {
@@ -98510,4 +98510,28 @@
 }
 .percentify.orange.dark.active > span:before {
   color: #e08833;
+}
+.percentify.thinner:after {
+  top: 0.01em;
+  left: 0.01em;
+  width: 0.98em;
+  height: 0.98em;
+}
+.percentify.thinner.hover:hover:after {
+  top: 0.01em;
+  left: 0.01em;
+  width: 0.98em;
+  height: 0.98em;
+}
+.percentify.thin:after {
+  top: 0.02em;
+  left: 0.02em;
+  width: 0.96em;
+  height: 0.96em;
+}
+.percentify.thin.hover:hover:after {
+  top: 0.01em;
+  left: 0.01em;
+  width: 0.98em;
+  height: 0.98em;
 }
