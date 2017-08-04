@@ -86,4 +86,4 @@ $ npm run start
 
 ## Demo
 
-[Demo Examples](https://percentify.firebaseapp.com)
+[Demo Examples](https://percentify.stackskull.com)
